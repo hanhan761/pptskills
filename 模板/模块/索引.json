@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "module_id": "rd-hero-evidence-three-layer-interpretation",
+      "display_name": "研发部｜主视觉证据与三层工程解读",
+      "communication_job": "以一张真实主视觉建立证据，分三层解释工程含义，并用底部判断句完成验收或概念纠偏",
+      "contract": "模板/模块/内容/研发部_主视觉证据_三层工程解读.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "team-core-four-role-profile",
+      "display_name": "团队介绍｜核心角色与骨干",
+      "communication_job": "团队负责人、项目负责人、技术负责人及核心骨干介绍",
+      "contract": "模板/模块/内容/团队介绍_核心角色与骨干.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "team-project-foundation-generic",
+      "display_name": "团队介绍｜项目与能力基础",
+      "communication_job": "用项目类型、能力范围和交付基础说明团队积累",
+      "contract": "模板/模块/内容/团队介绍_项目与能力基础.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "team-output-matrix-generic",
+      "display_name": "团队介绍｜成果与产出矩阵",
+      "communication_job": "用成果类型、数量级和转化方向说明团队产出",
+      "contract": "模板/模块/内容/团队介绍_成果与产出矩阵.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "cross-master-four-column-real-images",
+      "display_name": "跨母版｜四列递进真实图文",
+      "communication_job": "四阶段流程、四类证据或四项方法的递进说明",
+      "contract": "模板/模块/内容/跨母版_四列递进真实图文.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "cross-master-three-stage-evidence-loop",
+      "display_name": "跨母版｜试验闭环三段论",
+      "communication_job": "以两张真实图片和双指标结果解释输入、过程与结果",
+      "contract": "模板/模块/内容/跨母版_试验闭环三段论.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "cross-master-four-point-axis",
+      "display_name": "跨母版｜四点诊断轴",
+      "communication_job": "并列说明四个问题、条件、风险或判断点",
+      "contract": "模板/模块/内容/跨母版_四点诊断轴.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "cross-master-two-mechanism-cards",
+      "display_name": "跨母版｜双机制卡片",
+      "communication_job": "并列解释两个机制、两类方案或两条技术路线",
+      "contract": "模板/模块/内容/跨母版_双机制卡片.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "cross-master-four-column-dense-text",
+      "display_name": "跨母版｜四列方法详解",
+      "communication_job": "以四列长文本解释四个阶段、四类方法或四项治理动作",
+      "contract": "模板/模块/内容/跨母版_四列方法详解.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-time-inflection-evidence-line",
+      "display_name": "研发部｜时间拐点与双证据时间线",
+      "communication_job": "用少量关键节点解释技术或项目能力边界如何变化",
+      "contract": "模板/模块/内容/研发部_时间拐点_双证据时间线.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-mechanism-cutaway-four-actions",
+      "display_name": "研发部｜机制剖面与四动作闭环",
+      "communication_job": "把复杂机制拆成中心证据和四个稳定动作",
+      "contract": "模板/模块/内容/研发部_机制剖面_中心图四动作.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-dual-evidence-comparison-bridge",
+      "display_name": "研发部｜双证据对照与中轴桥接",
+      "communication_job": "并列两类真实证据并解释它们之间的因果联系",
+      "contract": "模板/模块/内容/研发部_双证据对照_中轴桥接.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-result-reading-chart-rules",
+      "display_name": "研发部｜结果阅读主图与三规则",
+      "communication_job": "用一张量化结果图训练观众按规则读取证据",
+      "contract": "模板/模块/内容/研发部_结果阅读_主图三规则.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-decision-canvas-quadrant-checklist",
+      "display_name": "研发部｜四象限决策画布与核对轨",
+      "communication_job": "把方案选择压缩为四象限比较和可执行核对项",
+      "contract": "模板/模块/内容/研发部_决策画布_四象限核对轨.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-case-story-three-act-evidence",
+      "display_name": "研发部｜案例故事三幕因果",
+      "communication_job": "用问题、模型介入和工程动作讲完整案例因果",
+      "contract": "模板/模块/内容/研发部_案例故事_三幕因果.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-flow-diagnosis-bottleneck-zoom",
+      "display_name": "研发部｜流程诊断与瓶颈放大",
+      "communication_job": "先给全流程，再只放大最关键的工程瓶颈",
+      "contract": "模板/模块/内容/研发部_流程诊断_瓶颈放大.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-case-mosaic-four-evidence-commonality",
+      "display_name": "研发部｜四图案例矩阵与共性提炼",
+      "communication_job": "从四类案例的真实证据中提炼一条共同工程规律",
+      "contract": "模板/模块/内容/研发部_案例矩阵_四图提炼共性.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-system-stack-trust-rail",
+      "display_name": "研发部｜系统分层与可信要求一体架构",
+      "communication_job": "同时呈现系统能力分层和贯穿全栈的可信约束",
+      "contract": "模板/模块/内容/研发部_系统架构_分层可信一体.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd10-risk-governance-matrix-human-gates",
+      "display_name": "研发部｜风险矩阵与责任控制阶梯",
+      "communication_job": "把风险优先级、回退机制和责任边界放进同一页面",
+      "contract": "模板/模块/内容/研发部_风险治理_矩阵责任阶梯.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd5-convergence-three-evidence-panels",
+      "display_name": "研发部｜三势汇流与三证据并行",
+      "communication_job": "用三类真实证据解释多个条件为什么在同一窗口形成工程拐点",
+      "contract": "模板/模块/内容/研发部_三势汇流_三证据并行汇流.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd5-task-suitability-four-layer-funnel",
+      "display_name": "研发部｜四层任务筛选与双出口",
+      "communication_job": "从候选任务中逐层筛出适合AI的工程任务并标明人控边界",
+      "contract": "模板/模块/内容/研发部_任务筛选_四层适配漏斗.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd5-root-cause-failure-amplification-chain",
+      "display_name": "研发部｜真实证据与失效放大链",
+      "communication_job": "说明上游差异如何沿阈值和流程逐级放大为现场失效并给出修复顺序",
+      "contract": "模板/模块/内容/研发部_根因诊断_失效链逐级放大.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd5-decision-three-gates-two-paths",
+      "display_name": "研发部｜三门决策与双路径分流",
+      "communication_job": "把方案是否进入试点压缩成连续门槛和清晰的通过或暂缓出口",
+      "contract": "模板/模块/内容/研发部_决策门槛_三门双路.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rd5-evidence-four-level-certification-rail",
+      "display_name": "研发部｜主证据与四级认证轨",
+      "communication_job": "用一张主证据说明工程主张如何沿数据、验证和审批逐级获得更高权限",
+      "contract": "模板/模块/内容/研发部_证据升级_主证据四级认证轨.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-cross-scale-three-level-evidence",
+      "display_name": "研发部｜跨尺度观察与三层证据对齐",
+      "communication_job": "把系统状态、结构候选和局部信号收束到同一条判断链",
+      "contract": "模板/模块/内容/研发部_跨尺度观察_三层证据对齐.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-before-after-same-object-upgrade",
+      "display_name": "研发部｜同对象前后证据升级",
+      "communication_job": "对照同一对象改造前后的证据质量并解释三项能力跃迁",
+      "contract": "模板/模块/内容/研发部_前后对照_同对象证据升级.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-zoom-overview-process-criterion",
+      "display_name": "研发部｜全景—过程—判据局部放大",
+      "communication_job": "从设备全景逐层放大到过程近景和缺陷判据",
+      "contract": "模板/模块/内容/研发部_局部放大_全景过程判据.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-operating-window-three-permission-zones",
+      "display_name": "研发部｜参数窗口与三级权限边界",
+      "communication_job": "把连续结果图划分为可用域、警戒带和禁用区",
+      "contract": "模板/模块/内容/研发部_参数窗口_三级权限边界.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-uncertainty-budget-four-source-ledger",
+      "display_name": "研发部｜不确定性预算与四源分账",
+      "communication_job": "拆分总误差贡献并把治理动作按来源和后果排序",
+      "contract": "模板/模块/内容/研发部_不确定性预算_四源分账.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-spatial-coverage-four-point-decision",
+      "display_name": "研发部｜空间布点与主图四点决策",
+      "communication_job": "围绕一张空间或系统主图解释覆盖、盲区、冗余和维护",
+      "contract": "模板/模块/内容/研发部_空间布点_主图四点决策.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-human-ai-swimlane-three-handoffs",
+      "display_name": "研发部｜人机双泳道与三交接点",
+      "communication_job": "区分模型与工程师的责任泳道并突出三次证据交接",
+      "contract": "模板/模块/内容/研发部_人机泳道_三交接点.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-tradeoff-frontier-three-options",
+      "display_name": "研发部｜多目标权衡前沿与三方案取舍",
+      "communication_job": "在性能、成本和验证风险之间比较三个候选方案",
+      "contract": "模板/模块/内容/研发部_权衡前沿_三方案取舍.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-process-storyboard-four-shot-loop",
+      "display_name": "研发部｜连续作业分镜与四镜头闭环",
+      "communication_job": "用四张真实证据图表现作业步骤接棒和连续留痕",
+      "contract": "模板/模块/内容/研发部_连续分镜_四镜头闭环.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdv10-evidence-dossier-four-metadata-fields",
+      "display_name": "研发部｜证据档案与四项元数据",
+      "communication_job": "把单份指南或报告转化为对象、版本、边界和签发齐全的工程档案",
+      "contract": "模板/模块/内容/研发部_证据档案_四项元数据.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdm5-local-pattern-dual-evidence-four-step-criterion",
+      "display_name": "研发部｜局部模式与四步判据",
+      "communication_job": "用缺陷主证据和制造近景解释局部模式如何回到可验收的工程判据",
+      "contract": "模板/模块/内容/研发部_局部模式_双证据四步判据.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdm5-temporal-memory-dual-evidence-four-step-state-track",
+      "display_name": "研发部｜时序记忆与四步状态轨",
+      "communication_job": "用四个时间动作和双证据解释工程状态如何沿时间持续更新",
+      "contract": "模板/模块/内容/研发部_时序记忆_双证据四步状态轨.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdm5-relation-propagation-central-network-neighborhood",
+      "display_name": "研发部｜中心网络与邻域更新",
+      "communication_job": "围绕中心网络图解释节点、邻域与关系约束如何共同形成整体表示",
+      "contract": "模板/模块/内容/研发部_关系传播_中心网络邻域更新.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdm5-attention-selection-dual-evidence-three-step-chain",
+      "display_name": "研发部｜双证据与三步选择链",
+      "communication_job": "用两张技术证据和三步选择链解释查询、匹配与聚合",
+      "contract": "模板/模块/内容/研发部_注意力选择_双证据三步选择链.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "rdm5-multiobjective-collaboration-three-evidence-decision-surface",
+      "display_name": "研发部｜三证据与多目标决策面",
+      "communication_job": "用设计、制造和系统架构三类证据解释多目标方案如何收敛",
+      "contract": "模板/模块/内容/研发部_多目标协同_三证据决策面.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    }
+  ]
+}

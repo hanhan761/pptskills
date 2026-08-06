@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "module_id": "cross-master-two-mechanism-cards",
+  "display_name": "跨母版｜双机制卡片",
+  "communication_job": "并列解释两个机制、两类方案或两条技术路线",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/cross-master-two-mechanism-cards.pptx",
+    "sha256": "35F240B9D4D318EB6BDE2C9DD5D31C5EE503C891402E5C3BA278CB2269B68893",
+    "slide": 1,
+    "master_family": "legacy-ai-education-v3",
+    "master_sha256": "69770F6C25D2EF71CD0E47C6F8ACAA39D8A37CE3B49868BEDD96F040C9D359B9"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 14",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 92",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 93",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 2
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 2
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 2
+    }
+  ],
+  "bounds_emu": {
+    "left": 398780,
+    "top": 1313815,
+    "right": 11793220,
+    "bottom": 6322060
+  },
+  "geometry_sha256": "FD9E59320CE592D29372F7804313EA7B5396F836FCF685D457535B4D49560BCB",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 14",
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 35,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          35
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "required": true,
+        "min_chars": 10,
+        "max_chars": 20,
+        "occurrence": 1,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "required": true,
+        "min_chars": 51,
+        "max_chars": 84,
+        "occurrence": 1
+      },
+      {
+        "shape": "文本框 92",
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 36,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          36
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 18,
+        "occurrence": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          18
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "required": true,
+        "min_chars": 55,
+        "max_chars": 90,
+        "occurrence": 2
+      }
+    ],
+    "picture_slots": []
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

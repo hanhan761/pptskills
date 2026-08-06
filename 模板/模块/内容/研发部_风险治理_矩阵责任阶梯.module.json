@@ -1,0 +1,737 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-risk-governance-matrix-human-gates",
+  "display_name": "研发部｜风险矩阵与责任控制阶梯",
+  "communication_job": "把风险优先级、回退机制和责任边界放进同一页面",
+  "extension_direction": "AI 治理、安全评审、上线门禁",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_风险治理_矩阵责任阶梯.pptx",
+    "sha256": "B355C6BF5DD9EFB16E693D892B3893468748E1B4CDA693CF52BBC0B4D7849A34",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P10_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_矩阵面板",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_矩阵标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_概率标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_影响标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_行标签_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_1_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_1_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_1_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_1_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_1_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_1_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_行标签_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_2_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_2_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_2_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_2_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_2_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_2_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_行标签_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_3_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_3_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_3_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_3_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险格_3_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_风险字_3_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_矩阵判断",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_责任面板",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_责任标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_责任副标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_阶梯主线",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门序号_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_门正文_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P10_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6363970
+  },
+  "geometry_sha256": "B3AD92FDF810CB28C185027C6D384E6317162EF366949C93FBB2EC3D614AF1D8",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P10_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          29
+        ],
+        "style_roles": {
+          "base": 2,
+          "accent": 1
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P10_矩阵标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RD10_P10_概率标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD10_P10_影响标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_行标签_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_1_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_1_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_1_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_行标签_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_2_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_2_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_2_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_行标签_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_3_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_3_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_风险字_3_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_矩阵判断",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P10_责任标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD10_P10_责任副标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P10_门序号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RD10_P10_门标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_门正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RD10_P10_门序号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RD10_P10_门标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_门正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P10_门序号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RD10_P10_门标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_门正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P10_门序号_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "04"
+      },
+      {
+        "shape": "RD10_P10_门标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P10_门正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P10_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 34,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": []
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

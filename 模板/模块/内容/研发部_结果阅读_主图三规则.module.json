@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-result-reading-chart-rules",
+  "display_name": "研发部｜结果阅读主图与三规则",
+  "communication_job": "用一张量化结果图训练观众按规则读取证据",
+  "extension_direction": "实验结果、模型评估、指标解释",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_结果阅读_主图三规则.pptx",
+    "sha256": "025F1307F39582A93AFD2FA3579DCB11815C17D7D68F5E67A2FF5DBDF8A17D1F",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P04_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_主图表",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_主图表_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_主图表_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则序号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_规则正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_判断底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P04_判断",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 5979795
+  },
+  "geometry_sha256": "0A9B64AA78DB4D04316C3E880E7C1B5A6AB23122F28370B3A058CD15F2EB5C3A",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P04_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P04_主图表_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 21,
+        "max_chars": 49,
+        "line_count": 1,
+        "line_min_chars": [
+          23
+        ],
+        "line_max_chars": [
+          49
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则序号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RD10_P04_规则标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 33,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则序号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RD10_P04_规则标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 15,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          14
+        ],
+        "line_max_chars": [
+          30
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则序号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RD10_P04_规则标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P04_规则正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 27,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          27
+        ]
+      },
+      {
+        "shape": "RD10_P04_判断",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 1,
+        "line_min_chars": [
+          11
+        ],
+        "line_max_chars": [
+          24
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD10_P04_主图表",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P04_主图表_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

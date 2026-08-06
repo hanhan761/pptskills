@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-operating-window-three-permission-zones",
+  "display_name": "研发部｜参数窗口与三级权限边界",
+  "communication_job": "把连续结果图划分为可用域、警戒带和禁用区",
+  "extension_direction": "温度窗口、寿命阈值、模型适用域、控制权限",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_参数窗口_三级权限边界.pptx",
+    "sha256": "92D12129456DD6B84D54DF158BF63CC26E5EEA03E632D33F98735E8DAC369ADB",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P04_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_寿命曲线_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_寿命曲线",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_寿命曲线_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_寿命曲线_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_读图底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_读图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_权限轨底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口标签_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_窗口正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P04_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "954193329CE76C4F58E653AFCBE2CBFDAFD5BA1F8FB1B7DE7BF3AFA18A2E9F2F",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P04_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 27,
+        "line_count": 1,
+        "line_min_chars": [
+          14
+        ],
+        "line_max_chars": [
+          30
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P04_寿命曲线_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 36,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ]
+      },
+      {
+        "shape": "RDV10_P04_读图",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 23,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          23
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口标签_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 27,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          7
+        ],
+        "line_max_chars": [
+          12,
+          15
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口标签_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 25,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          6
+        ],
+        "line_max_chars": [
+          12,
+          14
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口标签_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RDV10_P04_窗口正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 25,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          6
+        ],
+        "line_max_chars": [
+          12,
+          14
+        ]
+      },
+      {
+        "shape": "RDV10_P04_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 44,
+        "line_count": 1,
+        "line_min_chars": [
+          21
+        ],
+        "line_max_chars": [
+          44
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P04_寿命曲线",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P04_寿命曲线_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

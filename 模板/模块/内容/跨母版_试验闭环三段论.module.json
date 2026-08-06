@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "module_id": "cross-master-three-stage-evidence-loop",
+  "display_name": "跨母版｜试验闭环三段论",
+  "communication_job": "以两张真实图片和双指标结果解释输入、过程与结果",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/cross-master-three-stage-evidence-loop.pptx",
+    "sha256": "F6A3CD17686219C4148E758505F65AB7D8D1CBADF0DCC92D85FDB3D7A8143329",
+    "slide": 1,
+    "master_family": "legacy-additive-manufacturing",
+    "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 4",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 9",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 21",
+      "occurrence": 1
+    },
+    {
+      "name": "箭头: 右 10",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 37",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 27",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 9",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 41",
+      "occurrence": 1
+    },
+    {
+      "name": "箭头: 右 10",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 43",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 9",
+      "occurrence": 3
+    },
+    {
+      "name": "文本框 52",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 7",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 9",
+      "occurrence": 4
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 13",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 14",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 17",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": -1,
+    "top": 723249,
+    "right": 12191999,
+    "bottom": 6694170
+  },
+  "geometry_sha256": "55A075A530750DDA29CF9515FEF6FB6CAC0DFE2EEA08F4C22A79242EEC77BADA",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 8",
+        "required": true,
+        "min_chars": 44,
+        "max_chars": 84,
+        "line_count": 2,
+        "line_min_chars": [
+          24,
+          20
+        ],
+        "line_max_chars": [
+          45,
+          39
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "文本框 4",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 10,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "文本框 21",
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "文本框 27",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 41",
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "文本框 43",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "矩形: 圆角 9",
+        "occurrence": 3,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "文本框 52",
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "矩形 2",
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 35,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          35
+        ]
+      },
+      {
+        "shape": "文本框 7",
+        "required": true,
+        "min_chars": 35,
+        "max_chars": 65,
+        "line_count": 1,
+        "line_min_chars": [
+          35
+        ],
+        "line_max_chars": [
+          65
+        ]
+      },
+      {
+        "shape": "矩形: 圆角 9",
+        "occurrence": 4,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "文本框 13",
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          14
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "图片 14",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 21",
+        "credit_shape": "文本框 7",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "图片 17",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 13",
+        "credit_shape": "文本框 7",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

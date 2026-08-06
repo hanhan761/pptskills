@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-cross-scale-three-level-evidence",
+  "display_name": "研发部｜跨尺度观察与三层证据对齐",
+  "communication_job": "把系统状态、结构候选和局部信号收束到同一条判断链",
+  "extension_direction": "宏观—介观—微观、系统—部件—信号、对象—机制—证据",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_跨尺度观察_三层证据对齐.pptx",
+    "sha256": "E0EC28526F7D5712698483A8E101206BADB96FEA131A5181B38593272C8F24D3",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P01_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_系统标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结构标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_信号标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_判断轨底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_判断轨标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_问题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_主连接_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_主连接_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P01_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "49AE82CC4D3A2EAF85959BBE5C1767A363AAA84CAEF54EE72FC468CDE26D4850",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P01_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P01_系统图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 35,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ]
+      },
+      {
+        "shape": "RDV10_P01_系统标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P01_结构图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 27,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          22
+        ]
+      },
+      {
+        "shape": "RDV10_P01_结构标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P01_信号图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 24,
+        "line_count": 1,
+        "line_min_chars": [
+          8
+        ],
+        "line_max_chars": [
+          18
+        ]
+      },
+      {
+        "shape": "RDV10_P01_信号标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P01_判断轨标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          28
+        ]
+      },
+      {
+        "shape": "RDV10_P01_问题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P01_问题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P01_问题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P01_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 43,
+        "line_count": 1,
+        "line_min_chars": [
+          20
+        ],
+        "line_max_chars": [
+          43
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P01_系统图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P01_系统图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P01_结构图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P01_结构图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P01_信号图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P01_信号图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

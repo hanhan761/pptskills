@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-dual-evidence-comparison-bridge",
+  "display_name": "研发部｜双证据对照与中轴桥接",
+  "communication_job": "并列两类真实证据并解释它们之间的因果联系",
+  "extension_direction": "设备与过程、宏观与微观、输入与输出",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_双证据对照_中轴桥接.pptx",
+    "sha256": "8D5FDA0DA71B9CB7A10EB890361B373F95C69DE2B1A5C6E346AED2545B8FB349",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P03_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_系统图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_系统_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_系统_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_熔池图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_熔池_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_熔池_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴标签_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴标签_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴标签_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_中轴正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_左连接",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_右连接",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_结论标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P03_结论正文",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6199505
+  },
+  "geometry_sha256": "FFA5FD5CEA0E0C562235CC912819FF7C7A420615E4CAC577FDB968EFDFF8D19B",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P03_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P03_系统_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          25
+        ]
+      },
+      {
+        "shape": "RD10_P03_熔池_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 33,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          29
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴标签_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴标签_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴标签_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P03_中轴正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD10_P03_结论标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P03_结论正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 44,
+        "line_count": 1,
+        "line_min_chars": [
+          21
+        ],
+        "line_max_chars": [
+          44
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD10_P03_系统图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P03_系统_图注",
+        "source_required": true,
+        "fit": "cover",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RD10_P03_熔池图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P03_熔池_图注",
+        "source_required": true,
+        "fit": "cover",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

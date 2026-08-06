@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "module_id": "team-project-foundation-generic",
+  "display_name": "团队介绍｜项目与能力基础",
+  "communication_job": "用项目类型、能力范围和交付基础说明团队积累",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/team-project-foundation-generic.pptx",
+    "sha256": "D44D59D9CF00807E57FFFE9BB6BAFB633DBFB01EC4D046EA37CD9311D0FB55DC",
+    "slide": 1,
+    "master_family": "legacy-additive-manufacturing",
+    "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 3",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 4",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 14",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 17",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 208731,
+    "top": 705855,
+    "right": 12028555,
+    "bottom": 6737820
+  },
+  "geometry_sha256": "C3B0C77519B951A4C5BA20013CAF265CA9023B48E9BF705FF43D2E6D40559E8E",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 8",
+        "required": true,
+        "min_chars": 323,
+        "max_chars": 518
+      },
+      {
+        "shape": "文本框 14",
+        "required": true,
+        "min_chars": 26,
+        "max_chars": 48,
+        "line_count": 1,
+        "style_roles": {
+          "base": 1,
+          "accent": 2,
+          "accent2": 6,
+          "accent3": 8
+        },
+        "required_style_roles": [
+          "base",
+          "accent",
+          "accent2",
+          "accent3"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

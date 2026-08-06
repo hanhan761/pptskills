@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-decision-canvas-quadrant-checklist",
+  "display_name": "研发部｜四象限决策画布与核对轨",
+  "communication_job": "把方案选择压缩为四象限比较和可执行核对项",
+  "extension_direction": "路线选择、方案优先级、采购评审",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_决策画布_四象限核对轨.pptx",
+    "sha256": "C58EB264B4E62591299F3B70D5D9B748A7E180632EEA3065578F4B7AE2B6A053",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P05_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_画布底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_竖轴",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_横轴",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_纵轴高",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_纵轴低",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_横轴低",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_横轴高",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_选项正文_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_右轨",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_右轨标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题点_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题点_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题点_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题点_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_问题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_出口底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P05_出口",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6454775
+  },
+  "geometry_sha256": "6F1D00623E51FDB97DCEF8CA9523F197E276C8B6569EA943DC21D83AE4975060",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P05_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P05_纵轴高",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_纵轴低",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_横轴低",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_横轴高",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 27,
+        "line_count": 2,
+        "line_min_chars": [
+          6,
+          6
+        ],
+        "line_max_chars": [
+          14,
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 2,
+        "line_min_chars": [
+          6,
+          6
+        ],
+        "line_max_chars": [
+          13,
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 2,
+        "line_min_chars": [
+          6,
+          6
+        ],
+        "line_max_chars": [
+          13,
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P05_选项正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 25,
+        "line_count": 2,
+        "line_min_chars": [
+          6,
+          6
+        ],
+        "line_max_chars": [
+          14,
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P05_右轨标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD10_P05_问题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RD10_P05_问题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RD10_P05_问题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RD10_P05_问题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RD10_P05_出口",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      }
+    ],
+    "picture_slots": []
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

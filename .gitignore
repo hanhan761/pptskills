@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.tmp
+*.bak
+*.provenance.json
+task/
+test/
+待提取/
+已提取/
+模板研发部门/_internal/*
+!模板研发部门/_internal/README.md
+模板研发部门/create1/*.pptx
+rendered*/
+preview*/
+contact*/

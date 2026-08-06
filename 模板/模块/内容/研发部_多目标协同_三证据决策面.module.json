@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "module_id": "rdm5-multiobjective-collaboration-three-evidence-decision-surface",
+  "display_name": "研发部｜三证据与多目标决策面",
+  "communication_job": "用设计、制造和系统架构三类证据解释多目标方案如何收敛",
+  "extension_direction": "三方案权衡页、目标—约束—验证三层页",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_多目标协同_三证据决策面.pptx",
+    "sha256": "C5BAB365603D9C99D83C246BEE41753AD0090635CCA63DA69014D1638F71D0F7",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDM5_P05_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_复材设计_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_复材设计",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_复材设计_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_复材设计_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_制造检测_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_制造检测",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_制造检测_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_制造检测_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_系统架构_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_系统架构",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_系统架构_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_系统架构_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_左出口底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_左出口",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_判据_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P05_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "9F58364DC022463F5370B16F00FCAB99DCBE05A363119ABC85F89161BF253F70",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDM5_P05_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDM5_P05_复材设计_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 43,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          42
+        ]
+      },
+      {
+        "shape": "RDM5_P05_制造检测_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 31,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          27
+        ]
+      },
+      {
+        "shape": "RDM5_P05_系统架构_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 15,
+        "max_chars": 39,
+        "line_count": 1,
+        "line_min_chars": [
+          17
+        ],
+        "line_max_chars": [
+          37
+        ]
+      },
+      {
+        "shape": "RDM5_P05_左出口",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RDM5_P05_判据_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDM5_P05_判据_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P05_判据_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P05_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 21,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          42
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDM5_P05_复材设计",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P05_复材设计_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDM5_P05_制造检测",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P05_制造检测_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDM5_P05_系统架构",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P05_系统架构_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

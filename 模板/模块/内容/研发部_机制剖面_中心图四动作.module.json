@@ -1,0 +1,487 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-mechanism-cutaway-four-actions",
+  "display_name": "研发部｜机制剖面与四动作闭环",
+  "communication_job": "把复杂机制拆成中心证据和四个稳定动作",
+  "extension_direction": "算法机制、系统原理、论文图解",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_机制剖面_中心图四动作.pptx",
+    "sha256": "D260374303DC3AFE1581450C92CAC2F80272950288E84B1D875EA420992305A2",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P02_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_机制图",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_机制_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_机制_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_判断面板",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_判断标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_判断副标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_判断正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_判据底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_工程判据",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤箭头_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤序号_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P02_步骤正文_4",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6235700
+  },
+  "geometry_sha256": "52B1BEDD4D638557BAF5D9954CF2E080A6318DB109609BB14B89073182F978FB",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P02_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P02_机制_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 50,
+        "line_count": 1,
+        "line_min_chars": [
+          24
+        ],
+        "line_max_chars": [
+          50
+        ]
+      },
+      {
+        "shape": "RD10_P02_判断标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 3
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P02_判断副标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD10_P02_判断正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 23,
+        "max_chars": 45,
+        "line_count": 1,
+        "line_min_chars": [
+          21
+        ],
+        "line_max_chars": [
+          45
+        ]
+      },
+      {
+        "shape": "RD10_P02_工程判据",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤序号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RD10_P02_步骤标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤序号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RD10_P02_步骤标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤序号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RD10_P02_步骤标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤序号_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "04"
+      },
+      {
+        "shape": "RD10_P02_步骤标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P02_步骤正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD10_P02_机制图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P02_机制_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

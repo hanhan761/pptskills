@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "module_id": "rd5-convergence-three-evidence-panels",
+  "display_name": "研发部｜三势汇流与三证据并行",
+  "communication_job": "用三类真实证据解释多个条件为什么在同一窗口形成工程拐点",
+  "extension_direction": "产业拐点、立项窗口、多条件协同成熟",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_三势汇流_三证据并行汇流.pptx",
+    "sha256": "90480ABDD73EC4B1B67D3087F5ABD1B57E948B57179DA8B760EDA85568C4F0CF",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD5_P01_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据面板_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_1_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_1_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_1_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据面板_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_2_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_2_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_2_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据面板_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_3_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_3_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_证据图_3_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_标签_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_加号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_加号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_汇流判断底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_汇流判断标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_汇流判断正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P01_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "FE33353FB5B5A97025A5B05F77863A91965D7667E4C568657A5570A64AB2285A",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD5_P01_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          29
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD5_P01_证据图_1_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 41,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          39
+        ]
+      },
+      {
+        "shape": "RD5_P01_标签_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD5_P01_正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 40,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          40
+        ]
+      },
+      {
+        "shape": "RD5_P01_证据图_2_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 34,
+        "line_count": 1,
+        "line_min_chars": [
+          14
+        ],
+        "line_max_chars": [
+          30
+        ]
+      },
+      {
+        "shape": "RD5_P01_标签_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD5_P01_正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 40,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          40
+        ]
+      },
+      {
+        "shape": "RD5_P01_证据图_3_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          25
+        ]
+      },
+      {
+        "shape": "RD5_P01_标签_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD5_P01_正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 43,
+        "line_count": 1,
+        "line_min_chars": [
+          20
+        ],
+        "line_max_chars": [
+          43
+        ]
+      },
+      {
+        "shape": "RD5_P01_加号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          3
+        ]
+      },
+      {
+        "shape": "RD5_P01_加号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          3
+        ]
+      },
+      {
+        "shape": "RD5_P01_汇流判断标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD5_P01_汇流判断正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 21,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          42
+        ]
+      },
+      {
+        "shape": "RD5_P01_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 37,
+        "line_count": 1,
+        "line_min_chars": [
+          17
+        ],
+        "line_max_chars": [
+          37
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD5_P01_证据图_1",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD5_P01_证据图_1_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RD5_P01_证据图_2",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD5_P01_证据图_2_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RD5_P01_证据图_3",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD5_P01_证据图_3_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

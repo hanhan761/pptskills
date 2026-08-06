@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-flow-diagnosis-bottleneck-zoom",
+  "display_name": "研发部｜流程诊断与瓶颈放大",
+  "communication_job": "先给全流程，再只放大最关键的工程瓶颈",
+  "extension_direction": "项目复盘、故障链、研发闭环",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_流程诊断_瓶颈放大.pptx",
+    "sha256": "750858AA4A41564EB638564C0FE9821168C223611F2969965F0EA101D6991D51",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P07_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_参考架构",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_参考架构_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_参考架构_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤箭头_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤箭头_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤底_5",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_步骤_5",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_左说明底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_左说明标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_左说明正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_瓶颈底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_瓶颈标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_验收正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P07_底部结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 5943600
+  },
+  "geometry_sha256": "A0C418759783DC7F2CBD7CA866253CF79A4866186E20D773FDB7AE6B0E90532C",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P07_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          29
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P07_参考架构_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 10,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          11
+        ],
+        "line_max_chars": [
+          24
+        ]
+      },
+      {
+        "shape": "RD10_P07_步骤_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P07_步骤_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P07_步骤_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P07_步骤_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P07_步骤_5",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RD10_P07_左说明标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P07_左说明正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 38,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          38
+        ]
+      },
+      {
+        "shape": "RD10_P07_瓶颈标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 23,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          23
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 10,
+        "max_chars": 20,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 10,
+        "max_chars": 20,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P07_验收正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 23,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          23
+        ]
+      },
+      {
+        "shape": "RD10_P07_底部结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 1,
+        "line_min_chars": [
+          11
+        ],
+        "line_max_chars": [
+          24
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD10_P07_参考架构",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P07_参考架构_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

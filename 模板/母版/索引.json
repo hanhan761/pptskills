@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "default_family": "public-blue-white",
+  "families": [
+    {
+      "family_id": "public-blue-white",
+      "display_name": "通用蓝白",
+      "directory": "模板/母版/通用蓝白",
+      "source_asset": "模板/母版/通用蓝白/母版源.pptx",
+      "contract": "模板/母版/通用蓝白/family.json",
+      "status": "active"
+    }
+  ]
+}

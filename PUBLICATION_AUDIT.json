@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "files_scanned": 100,
+  "pptx_scanned": 40,
+  "visible_text_nodes_neutralized": 5219,
+  "master_validation": "passed",
+  "module_contracts_checked": 39,
+  "module_contracts_passed": 39,
+  "composition_smoke_test": "passed",
+  "single_master_smoke_test": "passed",
+  "unexpected_media": 0,
+  "embedded_payloads": 0,
+  "sensitive_findings": 0
+}

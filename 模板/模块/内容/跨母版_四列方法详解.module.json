@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "module_id": "cross-master-four-column-dense-text",
+  "display_name": "跨母版｜四列方法详解",
+  "communication_job": "以四列长文本解释四个阶段、四类方法或四项治理动作",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/cross-master-four-column-dense-text.pptx",
+    "sha256": "48C54F3A601D7F45AA5745F71C4C6E8D9317842A0C2DDB97E577BF3491E4FB2A",
+    "slide": 1,
+    "master_family": "legacy-ai-education-ws2",
+    "master_sha256": "69770F6C25D2EF71CD0E47C6F8ACAA39D8A37CE3B49868BEDD96F040C9D359B9"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 28",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 25",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 5",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 17",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 22",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 30",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 31",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 34",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 307068,
+    "top": 1365099,
+    "right": 11965207,
+    "bottom": 6776416
+  },
+  "geometry_sha256": "E0504E46352CF6CD2AD8ED5420681217C35826F787BFE1A7E2653661EE518827",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 8",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 28",
+        "required": true,
+        "min_chars": 86,
+        "max_chars": 140
+      },
+      {
+        "shape": "矩形 25",
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          14
+        ],
+        "line_max_chars": [
+          28
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 3
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "矩形 5",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 17",
+        "required": true,
+        "min_chars": 86,
+        "max_chars": 139
+      },
+      {
+        "shape": "矩形 22",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 30",
+        "required": true,
+        "min_chars": 88,
+        "max_chars": 142
+      },
+      {
+        "shape": "矩形 31",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 34",
+        "required": true,
+        "min_chars": 92,
+        "max_chars": 148
+      }
+    ],
+    "picture_slots": []
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

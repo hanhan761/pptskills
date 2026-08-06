@@ -1,0 +1,622 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-process-storyboard-four-shot-loop",
+  "display_name": "研发部｜连续作业分镜与四镜头闭环",
+  "communication_job": "用四张真实证据图表现作业步骤接棒和连续留痕",
+  "extension_direction": "制造闭环、试验流程、现场处置、检验链",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_连续分镜_四镜头闭环.pptx",
+    "sha256": "4D1D8BAA8B28F2170206C2B99FB19999930B20EF5A18B0323CFEA85937164925",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P09_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_1_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_1_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_1_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_2_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_2_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_2_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_3_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_3_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_3_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头箭头_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头号_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_4_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_4_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头图片_4_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_镜头正文_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_交接_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P09_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "850FDD82AC47B2CD282A79CFDC19402CD0DCA2595EEEEA31C3114C450E1A88BD",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P09_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RDV10_P09_镜头标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_1_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 25,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          19
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RDV10_P09_交接_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RDV10_P09_镜头标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_2_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RDV10_P09_交接_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RDV10_P09_镜头标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_3_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RDV10_P09_交接_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头号_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "04"
+      },
+      {
+        "shape": "RDV10_P09_镜头标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_4_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P09_镜头正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RDV10_P09_交接_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P09_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 38,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          38
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P09_镜头图片_1",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P09_镜头图片_1_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_2",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P09_镜头图片_2_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_3",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P09_镜头图片_3_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P09_镜头图片_4",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P09_镜头图片_4_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

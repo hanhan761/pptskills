@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "module_id": "rd10-time-inflection-evidence-line",
+  "display_name": "研发部｜时间拐点与双证据时间线",
+  "communication_job": "用少量关键节点解释技术或项目能力边界如何变化",
+  "extension_direction": "技术史、项目里程碑、产业演进",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_时间拐点_双证据时间线.pptx",
+    "sha256": "881CA4DE3B919FD5F16910BD458664189ED0F67D8A3DC43A0F06D533BFD0C201",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD10_P01_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_AlphaGo图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_AlphaGo_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_AlphaGo_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_中心判断底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_中心判断标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_中心判断关键词",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_中心判断正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_MatterGen图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_MatterGen_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_MatterGen_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_主轴",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_年份_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_年份_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_年份_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_年份_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_节点正文_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD10_P01_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 191770,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "91C45B97F27F1102A62FCEE3DB2B5648BA359367A06F518CAF075094C4FDBEB2",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD10_P01_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P01_AlphaGo_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 41,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          39
+        ]
+      },
+      {
+        "shape": "RD10_P01_中心判断标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P01_中心判断关键词",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ],
+        "style_roles": {
+          "base": 5,
+          "accent": 1
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD10_P01_中心判断正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 23,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          23
+        ]
+      },
+      {
+        "shape": "RD10_P01_MatterGen_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 47,
+        "line_count": 1,
+        "line_min_chars": [
+          22
+        ],
+        "line_max_chars": [
+          47
+        ]
+      },
+      {
+        "shape": "RD10_P01_年份_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RD10_P01_年份_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RD10_P01_年份_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RD10_P01_年份_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "RD10_P01_节点正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          13
+        ]
+      },
+      {
+        "shape": "RD10_P01_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 40,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          40
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD10_P01_AlphaGo图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P01_AlphaGo_图注",
+        "source_required": true,
+        "fit": "cover",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RD10_P01_MatterGen图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD10_P01_MatterGen_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

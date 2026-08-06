@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-tradeoff-frontier-three-options",
+  "display_name": "研发部｜多目标权衡前沿与三方案取舍",
+  "communication_job": "在性能、成本和验证风险之间比较三个候选方案",
+  "extension_direction": "性能—成本、精度—速度、收益—风险",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_权衡前沿_三方案取舍.pptx",
+    "sha256": "AAAC4BEBFE9FDBA09F3246D768132B31D5DD6A7DDA24FCEEBF450A8981F7C8B4",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P08_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_生成设计图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_生成设计图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_生成设计图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_生成设计图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_权衡图底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_权衡图标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_横轴",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_纵轴",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_横轴标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_纵轴标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_前沿线_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_前沿线_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_前沿线_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选点_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选代号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选点_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选代号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选点_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选代号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_候选说明_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_选择底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_选择",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P08_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "734C41F86946492A24EF57D94A6264927BB8E89674960D0106C53A542EDEF1D5",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P08_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P08_生成设计图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 45,
+        "line_count": 1,
+        "line_min_chars": [
+          21
+        ],
+        "line_max_chars": [
+          44
+        ]
+      },
+      {
+        "shape": "RDV10_P08_权衡图标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 10,
+        "max_chars": 20,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P08_横轴标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RDV10_P08_纵轴标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 4,
+        "line_min_chars": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "line_max_chars": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "shape": "RDV10_P08_候选代号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 1,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          1
+        ],
+        "fixed_text": "A"
+      },
+      {
+        "shape": "RDV10_P08_候选说明_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 2,
+        "line_min_chars": [
+          1,
+          2
+        ],
+        "line_max_chars": [
+          5,
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P08_候选代号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 1,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          1
+        ],
+        "fixed_text": "B"
+      },
+      {
+        "shape": "RDV10_P08_候选说明_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          2,
+          2
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P08_候选代号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 1,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          1
+        ],
+        "fixed_text": "C"
+      },
+      {
+        "shape": "RDV10_P08_候选说明_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 2,
+        "line_min_chars": [
+          1,
+          2
+        ],
+        "line_max_chars": [
+          5,
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P08_选择",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 23,
+        "line_count": 1,
+        "line_min_chars": [
+          10
+        ],
+        "line_max_chars": [
+          23
+        ]
+      },
+      {
+        "shape": "RDV10_P08_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 23,
+        "max_chars": 45,
+        "line_count": 1,
+        "line_min_chars": [
+          21
+        ],
+        "line_max_chars": [
+          45
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P08_生成设计图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P08_生成设计图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

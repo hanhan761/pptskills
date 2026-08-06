@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "family_id": "public-blue-white",
+  "display_name": "通用蓝白",
+  "default": true,
+  "source_asset": "模板/母版/通用蓝白/母版源.pptx",
+  "source_sha256": "6E4EB9CCA1DF6D52D230E18FC70F411F1BAE357B8AAEFAEBD8F63830D00C5852",
+  "slide_size_emu": {
+    "width": 12192000,
+    "height": 6858000
+  },
+  "powerpoint_master": {
+    "part": "/ppt/slideMasters/slideMaster1.xml",
+    "master_count": 1,
+    "all_source_slides_use_this_master": true
+  },
+  "approved_layouts": [
+    {
+      "name": "标题和内容",
+      "source_slides": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "roles": [
+        "cover",
+        "agenda",
+        "section"
+      ]
+    },
+    {
+      "name": "4_标题幻灯片",
+      "source_slides": [
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "roles": [
+        "content_shell"
+      ]
+    }
+  ],
+  "role_pages": {
+    "cover": {
+      "source_slide": 1,
+      "layout": "标题和内容",
+      "text_slots": [
+        {
+          "shape": "文本框 5",
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 12,
+          "line_count": 1
+        },
+        {
+          "shape": "矩形 10",
+          "required": true,
+          "min_chars": 20,
+          "max_chars": 42,
+          "line_count": 3,
+          "line_min_chars": [
+            5,
+            7,
+            8
+          ],
+          "line_max_chars": [
+            14,
+            12,
+            20
+          ]
+        },
+        {
+          "shape": "文本框 4",
+          "required": false,
+          "min_chars": 0,
+          "max_chars": 18,
+          "line_count": 1
+        }
+      ]
+    },
+    "agenda": {
+      "source_slide": 2,
+      "layout": "标题和内容",
+      "state_variants": [
+        2,
+        6,
+        8
+      ],
+      "text_slots": [
+        {
+          "shape": "文本框 6",
+          "fixed_text": "主要内容"
+        },
+        {
+          "shape": "文本框 24",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 8,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 43",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 8,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 49",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 8,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 28",
+          "fixed_text": "01"
+        },
+        {
+          "shape": "文本框 47",
+          "fixed_text": "02"
+        },
+        {
+          "shape": "文本框 53",
+          "fixed_text": "03"
+        }
+      ]
+    },
+    "section": {
+      "source_slide": 2,
+      "layout": "标题和内容",
+      "state_variants": [
+        2,
+        6,
+        8
+      ],
+      "constraints_from_role": "agenda"
+    },
+    "content_shell": {
+      "source_slide": 3,
+      "layout": "4_标题幻灯片",
+      "text_slots": [
+        {
+          "shape": "矩形 1",
+          "fixed_text": "立项依据"
+        },
+        {
+          "shape": "文本框 2",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 9,
+          "line_count": 1
+        }
+      ]
+    },
+    "closing": {
+      "native_source_slide": null,
+      "strategy": "cover-derived",
+      "constraints_from_role": "cover",
+      "note": "源稿没有独立结尾页；只允许复制封面角色页并替换现有文案，不得新造版式。"
+    }
+  },
+  "shell_contract": {
+    "content_top_emu": 650240,
+    "content_top_ratio": 0.0948148148,
+    "boundary_rule": "正文模块所有形状的可见边界必须位于 content_top_emu 及其下方；固定外壳保留在母版家族中。",
+    "fixed_layout_shapes": [
+      "直接连接符 59",
+      "矩形: 单圆角 205"
+    ],
+    "fixed_slide_shapes": [
+      "矩形 1",
+      "文本框 2"
+    ],
+    "text_slots": [
+      {
+        "shape": "文本框 2",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          9
+        ]
+      }
+    ],
+    "content_module_policy": {
+      "preserve_original_absolute_geometry": true,
+      "preserve_z_order": true,
+      "allow_scale": false,
+      "allow_relayout": false,
+      "reject_if_outside_safe_region": true
+    }
+  },
+  "brand": {
+    "primary": "#123A85",
+    "accent": "#C00000",
+    "primary_typeface": "微软雅黑"
+  },
+  "evidence": {
+    "source_slide_count": 9,
+    "observed_layout_usage": {
+      "标题和内容": 4,
+      "4_标题幻灯片": 5
+    },
+    "visual_reviewed_all_slides": true,
+    "review_date": "2026-08-01"
+  }
+}

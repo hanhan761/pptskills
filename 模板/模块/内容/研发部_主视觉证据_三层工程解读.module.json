@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "module_id": "rd-hero-evidence-three-layer-interpretation",
+  "display_name": "研发部｜主视觉证据与三层工程解读",
+  "communication_job": "以一张真实主视觉建立证据，分三层解释工程含义，并用底部判断句完成验收或概念纠偏",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_主视觉证据_三层工程解读.pptx",
+    "sha256": "16A16DE96271A19D6EE84626B18ECE0740DE660CC614FBFE6A0F16D3B1FD48B3",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD_主视觉图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_主视觉图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_主视觉图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_01_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_01_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_01_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_01_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_01_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_02_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_02_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_02_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_02_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_02_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_03_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_03_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_03_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_03_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_解读卡片_03_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_验收判断底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_验收判断强调线",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_验收判断标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RD_验收判断正文",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 8",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 346075,
+    "top": 778510,
+    "right": 11795125,
+    "bottom": 6404610
+  },
+  "geometry_sha256": "10AF5E2920E7C3121574223E61486031D562862E66E76A80E14400529DF7C1A9",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 8",
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          22
+        ],
+        "line_max_chars": [
+          28
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD_主视觉图注",
+        "required": true,
+        "min_chars": 32,
+        "max_chars": 52,
+        "line_count": 1,
+        "line_min_chars": [
+          32
+        ],
+        "line_max_chars": [
+          52
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_01_序号",
+        "required": true,
+        "fixed_text": "01",
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1
+      },
+      {
+        "shape": "RD_解读卡片_01_标题",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_01_正文",
+        "required": true,
+        "min_chars": 24,
+        "max_chars": 32,
+        "line_count": 2,
+        "line_min_chars": [
+          10,
+          10
+        ],
+        "line_max_chars": [
+          16,
+          16
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_02_序号",
+        "required": true,
+        "fixed_text": "02",
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1
+      },
+      {
+        "shape": "RD_解读卡片_02_标题",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_02_正文",
+        "required": true,
+        "min_chars": 24,
+        "max_chars": 32,
+        "line_count": 2,
+        "line_min_chars": [
+          10,
+          10
+        ],
+        "line_max_chars": [
+          16,
+          16
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_03_序号",
+        "required": true,
+        "fixed_text": "03",
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1
+      },
+      {
+        "shape": "RD_解读卡片_03_标题",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RD_解读卡片_03_正文",
+        "required": true,
+        "min_chars": 24,
+        "max_chars": 32,
+        "line_count": 2,
+        "line_min_chars": [
+          10,
+          10
+        ],
+        "line_max_chars": [
+          16,
+          16
+        ]
+      },
+      {
+        "shape": "RD_验收判断标签",
+        "required": true,
+        "fixed_text": "验收判断",
+        "min_chars": 4,
+        "max_chars": 4,
+        "line_count": 1
+      },
+      {
+        "shape": "RD_验收判断正文",
+        "required": true,
+        "min_chars": 32,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          32
+        ],
+        "line_max_chars": [
+          42
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD_主视觉图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD_主视觉图注",
+        "source_required": true,
+        "fit": "cover",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

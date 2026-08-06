@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "module_id": "cross-master-four-point-axis",
+  "display_name": "跨母版｜四点诊断轴",
+  "communication_job": "并列说明四个问题、条件、风险或判断点",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/cross-master-four-point-axis.pptx",
+    "sha256": "8E1F56F5EB135683988F9E57BE95BCFDB6AE7177D828BED26F34E562BCD539D7",
+    "slide": 1,
+    "master_family": "legacy-ai-education-v3",
+    "master_sha256": "69770F6C25D2EF71CD0E47C6F8ACAA39D8A37CE3B49868BEDD96F040C9D359B9"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 3",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 4",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 5",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 6",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 7",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 8",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 9",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 10",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 11",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 12",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 13",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 14",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 15",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 16",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 17",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 18",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 19",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 20",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 21",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 22",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 23",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 24",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 25",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 26",
+      "occurrence": 1
+    },
+    {
+      "name": "直接连接符 27",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 31",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 635,
+    "top": 1102360,
+    "right": 12192000,
+    "bottom": 6545484
+  },
+  "geometry_sha256": "4FE6ED1DE7FEEE79D2EF08B66BF3AFB843938CCFBE7E7E3C438FA7FC060F46C9",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 8",
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 23
+      },
+      {
+        "shape": "矩形 9",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "矩形 13",
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22
+      },
+      {
+        "shape": "矩形 14",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "矩形 20",
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22
+      },
+      {
+        "shape": "矩形 21",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "矩形 25",
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22
+      },
+      {
+        "shape": "矩形 26",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "矩形 31",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          17
+        ]
+      }
+    ],
+    "picture_slots": []
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

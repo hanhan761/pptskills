@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "module_id": "rdm5-temporal-memory-dual-evidence-four-step-state-track",
+  "display_name": "研发部｜时序记忆与四步状态轨",
+  "communication_job": "用四个时间动作和双证据解释工程状态如何沿时间持续更新",
+  "extension_direction": "三帧事件链、长短期双记忆对照",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_时序记忆_双证据四步状态轨.pptx",
+    "sha256": "98ADE4E038567852FF4A5AA62204EB997BF5119187E8FA6D2F91437D716B0491",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDM5_P02_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_1_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_1_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_1_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_1_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_1_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_2_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_2_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_2_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_2_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_2_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_3_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_3_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_3_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_3_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_3_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间箭头_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_4_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_4_序号底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_4_序号",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_4_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_时间步_4_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_寿命曲线_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_寿命曲线",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_寿命曲线_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_寿命曲线_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_孪生轨迹_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_孪生轨迹",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_孪生轨迹_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_孪生轨迹_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_状态轨底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_状态轨",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P02_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "1C636819A77A0ADC01399F27EBDEF9315A12CF69FA23FBB59190906D797C3262",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDM5_P02_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_1_序号",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RDM5_P02_时间步_1_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_1_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_2_序号",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RDM5_P02_时间步_2_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_2_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_3_序号",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RDM5_P02_时间步_3_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_3_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_4_序号",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "04"
+      },
+      {
+        "shape": "RDM5_P02_时间步_4_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "RDM5_P02_时间步_4_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDM5_P02_寿命曲线_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 36,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ]
+      },
+      {
+        "shape": "RDM5_P02_孪生轨迹_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 37,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ]
+      },
+      {
+        "shape": "RDM5_P02_状态轨",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 38,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          38
+        ]
+      },
+      {
+        "shape": "RDM5_P02_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 40,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          40
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDM5_P02_寿命曲线",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P02_寿命曲线_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDM5_P02_孪生轨迹",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P02_孪生轨迹_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

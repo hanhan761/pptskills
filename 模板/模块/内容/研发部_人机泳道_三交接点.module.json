@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-human-ai-swimlane-three-handoffs",
+  "display_name": "研发部｜人机双泳道与三交接点",
+  "communication_job": "区分模型与工程师的责任泳道并突出三次证据交接",
+  "extension_direction": "模型—专家、算法—控制器、供应商—业主",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_人机泳道_三交接点.pptx",
+    "sha256": "3FADF47623A7527ACD09E8688CE1B2D0132AC64029E20D8303E9CDC16B5E10DD",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P07_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_团队图片_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_团队图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_团队图片_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_团队图片_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_左判断底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_左判断标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_左判断正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型泳道底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程泳道底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型动作_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程动作_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_交接线_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型动作_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程动作_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_交接线_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_阶段号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型动作_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_模型正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_工程动作_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_交接线_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_留痕底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_留痕",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P07_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "120FCFE82F1BBF5C5AD2170D935E0C248B0CDB8250DC7C56F1A1051EB7CA6D01",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P07_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P07_团队图片_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 35,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ]
+      },
+      {
+        "shape": "RDV10_P07_左判断标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          14
+        ]
+      },
+      {
+        "shape": "RDV10_P07_左判断正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          6
+        ],
+        "line_max_chars": [
+          12,
+          13
+        ]
+      },
+      {
+        "shape": "RDV10_P07_模型标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 2,
+        "line_min_chars": [
+          1,
+          1
+        ],
+        "line_max_chars": [
+          4,
+          4
+        ]
+      },
+      {
+        "shape": "RDV10_P07_工程标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 2,
+        "line_min_chars": [
+          1,
+          1
+        ],
+        "line_max_chars": [
+          5,
+          4
+        ]
+      },
+      {
+        "shape": "RDV10_P07_阶段号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RDV10_P07_模型动作_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P07_模型正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 2,
+        "line_min_chars": [
+          2,
+          3
+        ],
+        "line_max_chars": [
+          6,
+          7
+        ]
+      },
+      {
+        "shape": "RDV10_P07_工程动作_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          8,
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P07_阶段号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RDV10_P07_模型动作_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P07_模型正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          2,
+          2
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P07_工程动作_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          8,
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P07_阶段号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RDV10_P07_模型动作_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P07_模型正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 2,
+        "line_min_chars": [
+          2,
+          2
+        ],
+        "line_max_chars": [
+          6,
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P07_工程动作_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 2,
+        "line_min_chars": [
+          3,
+          3
+        ],
+        "line_max_chars": [
+          8,
+          8
+        ]
+      },
+      {
+        "shape": "RDV10_P07_留痕",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 38,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          38
+        ]
+      },
+      {
+        "shape": "RDV10_P07_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 38,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          38
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P07_团队图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P07_团队图片_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

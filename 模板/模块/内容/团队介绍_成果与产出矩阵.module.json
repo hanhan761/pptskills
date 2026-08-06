@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "module_id": "team-output-matrix-generic",
+  "display_name": "团队介绍｜成果与产出矩阵",
+  "communication_job": "用成果类型、数量级和转化方向说明团队产出",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/team-output-matrix-generic.pptx",
+    "sha256": "1A614CFB794F1BDD3C3598B9F22904BE1D2FE51D65CA796A908685B1D3BA13A1",
+    "slide": 1,
+    "master_family": "legacy-additive-manufacturing",
+    "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 5",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 6",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 4",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 7",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 9",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 176262,
+    "top": 743682,
+    "right": 12077700,
+    "bottom": 6714979
+  },
+  "geometry_sha256": "A7C48AD3013B8289AC1EF54C1D75C375BE3817AFAAB938825BC42A25471849F4",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 6",
+        "required": true,
+        "min_chars": 956,
+        "max_chars": 1532
+      },
+      {
+        "shape": "文本框 9",
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 33,
+        "line_count": 1,
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

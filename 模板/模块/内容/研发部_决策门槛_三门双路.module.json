@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "module_id": "rd5-decision-three-gates-two-paths",
+  "display_name": "研发部｜三门决策与双路径分流",
+  "communication_job": "把方案是否进入试点压缩成连续门槛和清晰的通过或暂缓出口",
+  "extension_direction": "项目立项、采购评审、上线门禁",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_决策门槛_三门双路.pptx",
+    "sha256": "C6F3FA3F0BFF990B7A037D8866EAA4B0F1D3D336E336AD69E5DE53526C457A8D",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RD5_P04_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门槛底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门间箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门间箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门号_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_门正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_分流干线",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_通过底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_通过标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_通过正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_暂缓底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_暂缓标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_暂缓正文",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_指南封面_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_指南封面",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_指南封面_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_指南封面_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RD5_P04_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6327140
+  },
+  "geometry_sha256": "EB04EE9F25278F1CDA2E56970968D5797ACDB31DAF6C0B25EEC64517B84BAF2F",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RD5_P04_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          32
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 4
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RD5_P04_门号_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RD5_P04_门标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD5_P04_门正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 18,
+        "line_count": 1,
+        "line_min_chars": [
+          8
+        ],
+        "line_max_chars": [
+          18
+        ]
+      },
+      {
+        "shape": "RD5_P04_门号_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RD5_P04_门标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD5_P04_门正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          17
+        ]
+      },
+      {
+        "shape": "RD5_P04_门号_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RD5_P04_门标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "RD5_P04_门正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 18,
+        "line_count": 1,
+        "line_min_chars": [
+          8
+        ],
+        "line_max_chars": [
+          18
+        ]
+      },
+      {
+        "shape": "RD5_P04_通过标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RD5_P04_通过正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 25,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          6
+        ],
+        "line_max_chars": [
+          13,
+          14
+        ]
+      },
+      {
+        "shape": "RD5_P04_暂缓标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RD5_P04_暂缓正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 24,
+        "line_count": 2,
+        "line_min_chars": [
+          5,
+          6
+        ],
+        "line_max_chars": [
+          12,
+          13
+        ]
+      },
+      {
+        "shape": "RD5_P04_指南封面_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 33,
+        "line_count": 1,
+        "line_min_chars": [
+          13
+        ],
+        "line_max_chars": [
+          29
+        ]
+      },
+      {
+        "shape": "RD5_P04_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 39,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          39
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RD5_P04_指南封面",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RD5_P04_指南封面_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

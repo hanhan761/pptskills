@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "module_id": "rdm5-attention-selection-dual-evidence-three-step-chain",
+  "display_name": "研发部｜双证据与三步选择链",
+  "communication_job": "用两张技术证据和三步选择链解释查询、匹配与聚合",
+  "extension_direction": "单头—多头前后对照、注意力权重主图三规则",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_注意力选择_双证据三步选择链.pptx",
+    "sha256": "70998A417CD2B2295F9BFD71508337716B45D46E33B9A2BEE1E978B52476F003",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDM5_P04_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_架构图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_架构图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_架构图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_架构图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择箭头_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择箭头_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_选择正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_注意力图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_注意力图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_注意力图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_注意力图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_规则底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_规则",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDM5_P04_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "A6443E4EFCA3C87FA40C1C8BA5CE460ADA10308E002D120479507DE344FD2D3A",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDM5_P04_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 29,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDM5_P04_架构图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 15,
+        "max_chars": 39,
+        "line_count": 1,
+        "line_min_chars": [
+          17
+        ],
+        "line_max_chars": [
+          37
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 13,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          10
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 14,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "RDM5_P04_选择正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDM5_P04_注意力图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 34,
+        "line_count": 1,
+        "line_min_chars": [
+          14
+        ],
+        "line_max_chars": [
+          30
+        ]
+      },
+      {
+        "shape": "RDM5_P04_规则",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 34,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ]
+      },
+      {
+        "shape": "RDM5_P04_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 21,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          19
+        ],
+        "line_max_chars": [
+          42
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDM5_P04_架构图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P04_架构图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDM5_P04_注意力图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDM5_P04_注意力图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

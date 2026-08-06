@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "module_id": "cross-master-four-column-real-images",
+  "display_name": "跨母版｜四列递进真实图文",
+  "communication_job": "四阶段流程、四类证据或四项方法的递进说明",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/cross-master-four-column-real-images.pptx",
+    "sha256": "C744683D3CA296FC2BD7D6163CD8A2E52101E2EEDF9972D165BA6105687DC578",
+    "slide": 1,
+    "master_family": "legacy-blue-technology",
+    "master_sha256": "ED255DF4365EE28D80B681B74DFA86D9E1CF97C375D7264B0668668374EEF640"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 9",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 2",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 32",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 17",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 23",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 2
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 2
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 2
+    },
+    {
+      "name": "组合 28",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 36",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 3
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 3
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 3
+    },
+    {
+      "name": "图片 44",
+      "occurrence": 1
+    },
+    {
+      "name": "幻云PPT-演示军团2",
+      "occurrence": 4
+    },
+    {
+      "name": "幻云PPT-演示军团19",
+      "occurrence": 4
+    },
+    {
+      "name": "幻云PPT-演示军团30",
+      "occurrence": 4
+    },
+    {
+      "name": "图片 1",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 4",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 5",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 10",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 0,
+    "top": 732541,
+    "right": 11971020,
+    "bottom": 6845300
+  },
+  "geometry_sha256": "41682CB9DB0522FA3E44728AD28766B9BC49C824AD0E4F738871066CB4511B46",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 9",
+        "required": true,
+        "min_chars": 36,
+        "max_chars": 46,
+        "line_count": 2,
+        "line_min_chars": [
+          17,
+          18
+        ],
+        "line_max_chars": [
+          22,
+          24
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "occurrence": 2,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "occurrence": 3,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团19",
+        "occurrence": 4,
+        "required": true,
+        "min_chars": 4,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 50,
+        "max_chars": 56
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "occurrence": 2,
+        "required": true,
+        "min_chars": 50,
+        "max_chars": 56
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "occurrence": 3,
+        "required": true,
+        "min_chars": 50,
+        "max_chars": 56
+      },
+      {
+        "shape": "幻云PPT-演示军团30",
+        "occurrence": 4,
+        "required": true,
+        "min_chars": 50,
+        "max_chars": 56
+      },
+      {
+        "shape": "文本框 4",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          25
+        ],
+        "line_max_chars": [
+          42
+        ]
+      },
+      {
+        "shape": "文本框 8",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          25
+        ],
+        "line_max_chars": [
+          42
+        ]
+      },
+      {
+        "shape": "文本框 5",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          25
+        ],
+        "line_max_chars": [
+          42
+        ]
+      },
+      {
+        "shape": "文本框 10",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 42,
+        "line_count": 1,
+        "line_min_chars": [
+          25
+        ],
+        "line_max_chars": [
+          42
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "图片 32",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 4",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "图片 1",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 4",
+        "source_required": true,
+        "shares_frame_with": "图片 32",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "图片 23",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 8",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "图片 36",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 5",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "图片 44",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "文本框 10",
+        "source_required": true,
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

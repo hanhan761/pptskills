@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-zoom-overview-process-criterion",
+  "display_name": "研发部｜全景—过程—判据局部放大",
+  "communication_job": "从设备全景逐层放大到过程近景和缺陷判据",
+  "extension_direction": "设备全景、过程局部、失效细节、证据判据",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_局部放大_全景过程判据.pptx",
+    "sha256": "84CFA0A96F3710151ADB434628901E8BF6D1D21FDABD04E50DD61AE436D2A91B",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P03_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景图片_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景图片",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景图片_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景图片_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景标签底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_全景标签",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_放大框_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_放大框_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_右轨底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程标题_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程近景_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程近景",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程近景_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_过程近景_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_判据标题_底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_判据标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_缺陷判据_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_缺陷判据",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_缺陷判据_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_缺陷判据_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_放大线_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_放大线_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P03_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "C951ADBF2DD13F257CC0CE4F7F3D0AE59BE6AC74331B2B0BCA831CA3E2BC4C10",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P03_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 31,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          35
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P03_全景图片_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          25
+        ]
+      },
+      {
+        "shape": "RDV10_P03_全景标签",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P03_过程标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P03_过程近景_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P03_判据标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          4
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "RDV10_P03_缺陷判据_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 26,
+        "line_count": 1,
+        "line_min_chars": [
+          9
+        ],
+        "line_max_chars": [
+          20
+        ]
+      },
+      {
+        "shape": "RDV10_P03_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 39,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          39
+        ],
+        "style_roles": {
+          "base": 2,
+          "accent": 1
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P03_全景图片",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P03_全景图片_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P03_过程近景",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P03_过程近景_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      },
+      {
+        "shape": "RDV10_P03_缺陷判据",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P03_缺陷判据_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

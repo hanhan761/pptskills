@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "module_id": "team-core-four-role-profile",
+  "display_name": "团队介绍｜核心角色与骨干",
+  "communication_job": "团队负责人、项目负责人、技术负责人及核心骨干介绍",
+  "status": "active",
+  "source": {
+    "deck": "模板/模块/源页/team-core-four-role-profile.pptx",
+    "sha256": "9F563BEA2A7B587CD599896718DD9C8FBD80F8C84A201207B5F42942F725049B",
+    "slide": 1,
+    "master_family": "legacy-additive-manufacturing",
+    "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形: 圆角 47",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 46",
+      "occurrence": 1
+    },
+    {
+      "name": "Picture 6",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 1",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 6",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 7",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 8",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 9",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 10",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 11",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 13",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 14",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 24",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 29",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 30",
+      "occurrence": 1
+    },
+    {
+      "name": "Picture 2",
+      "occurrence": 1
+    },
+    {
+      "name": "Picture 4",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 34",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 35",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 36",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 38",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 39",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 40",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 45",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 247222,
+    "top": 728285,
+    "right": 12192000,
+    "bottom": 6797135
+  },
+  "geometry_sha256": "C0E3616854E99D5A63126EF85F430F88F8C93A060F9B2279382BBF46322A2D65",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 1",
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 24,
+        "line_count": 3,
+        "line_min_chars": [
+          4,
+          4,
+          3
+        ],
+        "line_max_chars": [
+          9,
+          9,
+          6
+        ]
+      },
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 7,
+        "max_chars": 16
+      },
+      {
+        "shape": "文本框 6",
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 16
+      },
+      {
+        "shape": "文本框 7",
+        "required": true,
+        "min_chars": 104,
+        "max_chars": 167
+      },
+      {
+        "shape": "文本框 8",
+        "required": true,
+        "min_chars": 86,
+        "max_chars": 139
+      },
+      {
+        "shape": "文本框 10",
+        "required": true,
+        "min_chars": 11,
+        "max_chars": 20
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 7
+      },
+      {
+        "shape": "文本框 13",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6
+      },
+      {
+        "shape": "文本框 29",
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 13
+      },
+      {
+        "shape": "文本框 34",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1
+      },
+      {
+        "shape": "文本框 35",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1
+      },
+      {
+        "shape": "文本框 36",
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 13
+      },
+      {
+        "shape": "文本框 38",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1
+      },
+      {
+        "shape": "文本框 39",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12
+      },
+      {
+        "shape": "矩形 40",
+        "required": true,
+        "min_chars": 31,
+        "max_chars": 60,
+        "line_count": 2,
+        "line_min_chars": [
+          20,
+          11
+        ],
+        "line_max_chars": [
+          38,
+          22
+        ]
+      },
+      {
+        "shape": "文本框 45",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "source_master_differs_from_target": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

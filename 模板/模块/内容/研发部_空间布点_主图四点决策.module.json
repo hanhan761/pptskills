@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "module_id": "rdv10-spatial-coverage-four-point-decision",
+  "display_name": "研发部｜空间布点与主图四点决策",
+  "communication_job": "围绕一张空间或系统主图解释覆盖、盲区、冗余和维护",
+  "extension_direction": "传感器布点、试验测点、巡检区域、系统覆盖",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/研发部_空间布点_主图四点决策.pptx",
+    "sha256": "5BB54747FB2DF7F72EC993FCA0DD6D74B9130E2F1DD0FF4778EBBD2F7B028D73",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "RDV10_P06_标题底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_中心系统图_图片框",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_中心系统图",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_中心系统图_图注底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_中心系统图_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_标记_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策轨底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策底_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策标题_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策正文_1",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策底_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策标题_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策正文_2",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策底_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策标题_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策正文_3",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策底_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策标题_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_决策正文_4",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_排序底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_排序",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_结论底",
+      "occurrence": 1
+    },
+    {
+      "name": "RDV10_P06_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 411480,
+    "top": 749300,
+    "right": 11749405,
+    "bottom": 6354445
+  },
+  "geometry_sha256": "B791BB07E7A047E0B99F10804EF162C6AA45B19179CEA69F69587306EEF9E525",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "RDV10_P06_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 30,
+        "line_count": 1,
+        "line_min_chars": [
+          16
+        ],
+        "line_max_chars": [
+          34
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "RDV10_P06_中心系统图_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 36,
+        "line_count": 1,
+        "line_min_chars": [
+          15
+        ],
+        "line_max_chars": [
+          33
+        ]
+      },
+      {
+        "shape": "RDV10_P06_标记_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "01"
+      },
+      {
+        "shape": "RDV10_P06_标记_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "02"
+      },
+      {
+        "shape": "RDV10_P06_标记_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "03"
+      },
+      {
+        "shape": "RDV10_P06_标记_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 2,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          2
+        ],
+        "fixed_text": "04"
+      },
+      {
+        "shape": "RDV10_P06_决策标题_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策正文_1",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 6,
+        "max_chars": 15,
+        "line_count": 1,
+        "line_min_chars": [
+          6
+        ],
+        "line_max_chars": [
+          13
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策标题_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策正文_2",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策标题_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策正文_3",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策标题_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "RDV10_P06_决策正文_4",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 8,
+        "max_chars": 17,
+        "line_count": 1,
+        "line_min_chars": [
+          7
+        ],
+        "line_max_chars": [
+          15
+        ]
+      },
+      {
+        "shape": "RDV10_P06_排序",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 9,
+        "max_chars": 18,
+        "line_count": 1,
+        "line_min_chars": [
+          8
+        ],
+        "line_max_chars": [
+          18
+        ]
+      },
+      {
+        "shape": "RDV10_P06_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 43,
+        "line_count": 1,
+        "line_min_chars": [
+          20
+        ],
+        "line_max_chars": [
+          43
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "RDV10_P06_中心系统图",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "RDV10_P06_中心系统图_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}
