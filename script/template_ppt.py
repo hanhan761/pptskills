@@ -10,6 +10,7 @@ import argparse
 import copy
 import gc
 import hashlib
+import importlib.util
 import json
 import math
 import os
@@ -82,6 +83,42 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: stream.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def collapse_equivalent_com_duplicates(path: Path) -> None:
+    """Normalize masters that PowerPoint duplicated while copying same-deck slides.
+
+    The helper refuses non-equivalent masters, so it cannot silently combine
+    genuinely different visual families.  It is only a package-level cleanup
+    after the regular COM composition has completed.
+    """
+    helper = Path(__file__).with_name("collapse_equivalent_masters.py")
+    if not helper.is_file():
+        fail(f"Equivalent-master normalizer is missing: {helper}")
+    spec = importlib.util.spec_from_file_location("collapse_equivalent_masters", helper)
+    if spec is None or spec.loader is None:
+        fail(f"Cannot load equivalent-master normalizer: {helper}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    temporary = path.with_suffix(path.suffix + ".master-normalized.pptx")
+    original_argv = sys.argv[:]
+    try:
+        sys.argv = [str(helper), "--input", str(path), "--output", str(temporary)]
+        module.main()
+    finally:
+        sys.argv = original_argv
+    last_error: PermissionError | None = None
+    for attempt in range(16):
+        try:
+            os.replace(temporary, path)
+            last_error = None
+            break
+        except PermissionError as exc:
+            last_error = exc
+            gc.collect()
+            time.sleep(0.25 * (attempt + 1))
+    if last_error is not None:
+        raise last_error
 
 
 def find_repo_root(start: Path | None = None) -> Path:
@@ -464,7 +501,9 @@ def inferred_topic(slide: Any, slide_width: int, slide_height: int) -> str:
 
 def source_family_and_variant(source: Path) -> tuple[str, str]:
     stem = source.stem
-    if "轻量化构件" in stem:
+    if "通用青绿源稿" in stem:
+        return "通用青绿_通用主题", "原稿"
+    if "通用工程源稿" in stem:
         return "通用蓝白_示例来源", "v4"
     if "v4-ws2" in stem.lower():
         return "通用蓝白_示例来源", "ws2"
@@ -476,7 +515,13 @@ def source_family_and_variant(source: Path) -> tuple[str, str]:
 def infer_category(slide_number: int, texts: list[str]) -> str:
     combined = "".join(compact_text(text) for text in texts)
     if slide_number == 1 or any(
-        marker in combined for marker in ("谢谢大家", "谢谢敬请批评指正", "恳请各位专家批评指正")
+        marker in combined
+        for marker in (
+            "谢谢大家",
+            "谢谢敬请批评指正",
+            "恳请各位专家批评指正",
+            "谢！谢",
+        )
     ):
         return "封面"
     if any(marker in combined for marker in ("汇报提纲", "答辩提纲", "主要内容")):
@@ -892,6 +937,7 @@ def cmd_archive_learned(args: argparse.Namespace) -> None:
     archive = (repo / "已提取").resolve()
     archive.mkdir(parents=True, exist_ok=True)
     moved = 0
+    archive_path_rewrites: dict[str, str] = {}
     for source_entry in sources:
         source = resolve_repo_path(source_entry["source"], repo)
         if source.is_relative_to(archive):
@@ -912,6 +958,9 @@ def cmd_archive_learned(args: argparse.Namespace) -> None:
                 shutil.move(str(source), str(destination))
             moved += 1
         archived_path = relative_or_absolute(destination, repo)
+        archive_path_rewrites[
+            relative_or_absolute(inbox / destination.name, repo)
+        ] = archived_path
         source_entry["source"] = archived_path
         source_entry["sha256"] = sha256(destination)
         for slide in source_entry.get("slides", []):
@@ -923,6 +972,23 @@ def cmd_archive_learned(args: argparse.Namespace) -> None:
             contract["source"]["sha256"] = source_entry["sha256"]
             write_json(contract_path, contract)
     write_json(ledger_path, ledger)
+
+    # Curation manifests/results are part of the long-term audit trail.  Keep
+    # their source and merge-representative paths aligned with the archived
+    # ledger so a future blank agent can re-run curation without stale inbox
+    # references.
+    def rewrite_archived_paths(value: Any) -> Any:
+        if isinstance(value, dict):
+            return {key: rewrite_archived_paths(item) for key, item in value.items()}
+        if isinstance(value, list):
+            return [rewrite_archived_paths(item) for item in value]
+        if isinstance(value, str):
+            return archive_path_rewrites.get(value.replace("\\", "/"), value)
+        return value
+
+    for audit_path in (repo / "模板" / "策展记录.json", repo / "模板" / "策展结果.json"):
+        if audit_path.is_file():
+            write_json(audit_path, rewrite_archived_paths(read_json(audit_path)))
     print(f"Archived {moved} learned source deck(s) into 已提取/")
 
 
@@ -1271,6 +1337,27 @@ def cmd_compose_family(args: argparse.Namespace) -> None:
                         f"Plan slide {output_number} module source layout '{source_layout}' "
                         f"differs from shell layout '{role_data.get('layout')}'"
                     )
+                title_matches = [
+                    item
+                    for item in family.get("content_title_variants", [])
+                    if isinstance(item, dict)
+                    and source_slide in [int(value) for value in item.get("source_slides", [])]
+                ]
+                if len(title_matches) != 1:
+                    fail(
+                        f"Plan slide {output_number} has no unique content-title capacity "
+                        f"variant for family source slide {source_slide}"
+                    )
+                title_variant = title_matches[0]
+                capacity_slots.append(
+                    {
+                        "shape": str(title_variant["shape"]),
+                        "required": True,
+                        "min_chars": int(title_variant["min_chars"]),
+                        "max_chars": int(title_variant["max_chars"]),
+                        "line_count": int(title_variant["line_count"]),
+                    }
+                )
             else:
                 source_slide = shell_source_slide
                 assembly = "cross_source_module_mount"
@@ -1464,6 +1551,14 @@ def cmd_compose_family(args: argparse.Namespace) -> None:
         batch_path.unlink()
     if compose_state_path.exists():
         compose_state_path.unlink()
+
+    # Some custom layouts (notably native layouts whose PowerPoint name is an
+    # empty string) make COM duplicate an equivalent master for every copied
+    # slide.  Normalize only when that happened; the helper aborts if the
+    # masters/layouts are not structurally equivalent.
+    composed_profile = master_profile(output)
+    if composed_profile["master_count"] > 1:
+        collapse_equivalent_com_duplicates(output)
 
     provenance = {
         "schema_version": 2,
@@ -1936,6 +2031,12 @@ def cmd_replace_text(args: argparse.Namespace) -> None:
                         fail(
                             f"Could not resolve one rich-text capacity slot for slide {slide_number}, selector {selector}"
                         )
+                    style_roles = matching_slots[0].get("style_roles")
+                    if not isinstance(style_roles, dict) or not style_roles:
+                        fail(
+                            f"Rich-text replacement requested for slide {slide_number}, selector {selector}, "
+                            "but its capacity contract defines no style_roles"
+                        )
                     with zipfile.ZipFile(template_path, "r") as template_zip:
                         prototype_root = ET.fromstring(
                             template_zip.read(
@@ -1949,7 +2050,7 @@ def cmd_replace_text(args: argparse.Namespace) -> None:
                         container,
                         prototype_container,
                         entry["rich_lines"],
-                        matching_slots[0]["style_roles"],
+                        style_roles,
                         f"slide {slide_number} shape '{shape_name}'",
                     )
                     continue
@@ -2087,6 +2188,9 @@ def cmd_replace_image(args: argparse.Namespace) -> None:
                 )
                 if picture.tag != f"{{{NS['p']}}}pic":
                     fail(f"'{shape_name}' on slide {slide_number} is not a picture shape")
+                properties = picture.find("./p:nvPicPr/p:cNvPr", NS)
+                if properties is None:
+                    fail(f"'{shape_name}' has no non-visual picture properties")
                 blip = picture.find("./p:blipFill/a:blip", NS)
                 if blip is None:
                     fail(f"'{shape_name}' has no embedded image")
@@ -2108,6 +2212,20 @@ def cmd_replace_image(args: argparse.Namespace) -> None:
                     set_cover_crop(picture, image_path, focal_x, focal_y)
                 elif entry.get("fit") != "preserve":
                     fail("Image fit must be 'cover' or 'preserve'")
+                if "caption" in entry:
+                    caption = str(entry["caption"]).strip()
+                    credit = str(entry.get("credit", "")).strip()
+                    source_page = str(entry.get("source_page", "")).strip()
+                    if not caption or not credit or not source_page:
+                        fail(
+                            "Image caption metadata requires non-empty caption, "
+                            "credit, and source_page"
+                        )
+                    properties.set("title", caption)
+                    properties.set(
+                        "descr",
+                        f"{caption}；来源：{credit}；原始页面：{source_page}",
+                    )
                 additions[media_name] = image_path.read_bytes()
                 matching_defaults = [
                     node
@@ -2445,7 +2563,10 @@ def cmd_verify_master(args: argparse.Namespace) -> None:
         approved_layouts = {
             str(entry.get("name", ""))
             for entry in family.get("approved_layouts", [])
-            if isinstance(entry, dict) and entry.get("name")
+            # A real PowerPoint custom layout may legally have an empty name.
+            # Registration is based on the presence of the name field, not its
+            # truthiness, so such native layouts remain verifiable.
+            if isinstance(entry, dict) and "name" in entry
         }
         used_layouts = set(profile["layout_usage"])
         unapproved = sorted(used_layouts - approved_layouts)

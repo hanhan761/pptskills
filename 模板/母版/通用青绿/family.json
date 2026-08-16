@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "family_id": "public-jade-green",
+  "display_name": "通用青绿",
+  "default": false,
+  "source_asset": "模板/母版/通用青绿/母版源.pptx",
+  "source_sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+  "slide_size_emu": {
+    "width": 12192000,
+    "height": 6858000
+  },
+  "powerpoint_master": {
+    "part": "/ppt/slideMasters/slideMaster1.xml",
+    "master_count": 1,
+    "all_source_slides_use_this_master": true
+  },
+  "approved_layouts": [
+    {
+      "name": "",
+      "source_slides": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "roles": [
+        "cover",
+        "agenda",
+        "section",
+        "content",
+        "closing"
+      ]
+    },
+    {
+      "name": "1_自定义版式",
+      "source_slides": [
+        3
+      ],
+      "roles": [
+        "overview"
+      ]
+    }
+  ],
+  "role_pages": {
+    "content": {
+      "source_slide": 5,
+      "layout": "",
+      "text_slots": []
+    },
+    "cover": {
+      "source_slide": 1,
+      "layout": "",
+      "text_slots": [
+        {
+          "shape": "文本框 9",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 1,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 10",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 1,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 22",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 1,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 24",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 1,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 46",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 8,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 48",
+          "required": true,
+          "min_chars": 8,
+          "max_chars": 14,
+          "line_count": 1
+        }
+      ]
+    },
+    "agenda": {
+      "source_slide": 2,
+      "layout": "",
+      "text_slots": [
+        {
+          "shape": "图形",
+          "occurrence": 2,
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 10
+        },
+        {
+          "shape": "图形",
+          "occurrence": 4,
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 10
+        },
+        {
+          "shape": "图形",
+          "occurrence": 6,
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 10
+        },
+        {
+          "shape": "图形",
+          "occurrence": 8,
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 10
+        }
+      ]
+    },
+    "overview": {
+      "source_slide": 3,
+      "layout": "1_自定义版式",
+      "text_slots": [
+        {
+          "shape": "文本框 13",
+          "required": true,
+          "min_chars": 6,
+          "max_chars": 18,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 12",
+          "required": true,
+          "min_chars": 14,
+          "max_chars": 40
+        },
+        {
+          "shape": "文本框 16",
+          "required": true,
+          "min_chars": 32,
+          "max_chars": 90
+        }
+      ]
+    },
+    "section": {
+      "source_slide": 4,
+      "layout": "",
+      "state_variants_original": [
+        4,
+        7,
+        12,
+        17
+      ],
+      "text_slots": [
+        {
+          "shape": "文本框 5",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 2,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 6",
+          "required": true,
+          "min_chars": 4,
+          "max_chars": 10,
+          "line_count": 1
+        }
+      ]
+    },
+    "closing": {
+      "source_slide": 26,
+      "layout": "",
+      "text_slots": [
+        {
+          "shape": "文本框 8",
+          "required": true,
+          "min_chars": 1,
+          "max_chars": 1,
+          "line_count": 1
+        },
+        {
+          "shape": "文本框 10",
+          "required": true,
+          "min_chars": 2,
+          "max_chars": 2,
+          "line_count": 1
+        }
+      ]
+    }
+  },
+  "content_title_variants": [
+    {
+      "source_slides": [
+        5
+      ],
+      "shape": "文本框 8",
+      "line_count": 1,
+      "min_chars": 5,
+      "max_chars": 15
+    },
+    {
+      "source_slides": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "shape": "文本框 3",
+      "line_count": 1,
+      "min_chars": 5,
+      "max_chars": 15
+    },
+    {
+      "source_slides": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "shape": "文本框 1",
+      "line_count": 1,
+      "min_chars": 5,
+      "max_chars": 15
+    }
+  ],
+  "shell_contract": {
+    "content_top_emu": 1219200,
+    "content_top_ratio": 0.1777777778,
+    "boundary_rule": "正文模块只登记标题线以下形状；顶部单行标题与青绿框景均属于固定母版外壳。",
+    "fixed_layout_shapes": [
+      "标题 1#1",
+      "标题 1#2",
+      "标题 1#3",
+      "组合 11"
+    ],
+    "fixed_slide_shapes": [],
+    "text_slots": [],
+    "content_page_rule": "同源模块直接复制其原生整页，因此保留该页自己的标题对象与标题样式；本家族当前不提供跨源挂载空壳。",
+    "content_module_policy": {
+      "preserve_original_absolute_geometry": true,
+      "preserve_z_order": true,
+      "allow_scale": false,
+      "allow_relayout": false,
+      "reject_if_outside_safe_region": true
+    }
+  },
+  "brand": {
+    "primary": "#536B3E",
+    "accent": "#A22B25",
+    "background": "#F7F4E8",
+    "primary_typeface": "阿里妈妈东方大楷",
+    "body_typeface": "思源黑体 CN"
+  },
+  "evidence": {
+    "source_slide_count": 29,
+    "family_asset_slide_count": 26,
+    "duplicate_master_state_pages_merged": [
+      7,
+      12,
+      17
+    ],
+    "observed_layout_usage": {
+      "": 25,
+      "1_自定义版式": 1
+    },
+    "visual_reviewed_all_slides": true,
+    "pixel_identical_master_normalization_test": true,
+    "review_date": "2026-08-13"
+  }
+}

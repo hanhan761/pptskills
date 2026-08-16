@@ -3,7 +3,9 @@ param(
     [string]$Pptx,
     [string]$Output,
     [string]$ShapePrefix,
-    [double]$TolerancePoints = 0.8
+    [double]$TolerancePoints = 0.8,
+    [int[]]$Slides,
+    [switch]$AllowDuplicateNames
 )
 
 $ErrorActionPreference = 'Stop'
@@ -61,14 +63,19 @@ try {
     $slideHeight = [double]$presentation.PageSetup.SlideHeight
 
     foreach ($slide in $presentation.Slides) {
+        if ($Slides -and $Slides.Count -gt 0 -and $Slides -notcontains [int]$slide.SlideIndex) { continue }
         $seenNames = @{}
         foreach ($shape in $slide.Shapes) {
             $name = [string]$shape.Name
             $inScope = [string]::IsNullOrWhiteSpace($ShapePrefix) -or $name.StartsWith($ShapePrefix)
-            if ($seenNames.ContainsKey($name) -and $inScope) {
-                Add-Issue $slide.SlideIndex 'duplicate_shape_name' $name 'duplicate top-level name'
+            if ($seenNames.ContainsKey($name)) {
+                $seenNames[$name] = [int]$seenNames[$name] + 1
             } else {
-                $seenNames[$name] = $true
+                $seenNames[$name] = 1
+            }
+            $shapePath = "$name#$($seenNames[$name])"
+            if ($seenNames[$name] -gt 1 -and $inScope -and -not $AllowDuplicateNames) {
+                Add-Issue $slide.SlideIndex 'duplicate_shape_name' $shapePath 'duplicate top-level name'
             }
 
             $left = [double]$shape.Left
@@ -78,7 +85,7 @@ try {
             if ($inScope -and ($left -lt -$TolerancePoints -or $top -lt -$TolerancePoints -or $right -gt $slideWidth + $TolerancePoints -or $bottom -gt $slideHeight + $TolerancePoints)) {
                 Add-Issue $slide.SlideIndex 'shape_out_of_bounds' $name ("L={0:N2}, T={1:N2}, R={2:N2}, B={3:N2}" -f $left, $top, $right, $bottom)
             }
-            Test-ShapeText $shape $slide.SlideIndex $name
+            Test-ShapeText $shape $slide.SlideIndex $shapePath
         }
     }
 

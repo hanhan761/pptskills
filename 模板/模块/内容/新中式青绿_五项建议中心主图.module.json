@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-five-criteria-center-image",
+  "display_name": "通用青绿｜五项建议中心主图",
+  "communication_job": "围绕一张中心主图说明五项条件、建议或标准",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 20,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "Freeform 11",
+      "occurrence": 1
+    },
+    {
+      "name": "Freeform 11",
+      "occurrence": 2
+    },
+    {
+      "name": "Freeform 11",
+      "occurrence": 3
+    },
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 470",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 481",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 482",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 483",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 484",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 485",
+      "occurrence": 1
+    },
+    {
+      "name": "Freeform 11",
+      "occurrence": 4
+    },
+    {
+      "name": "Freeform 11",
+      "occurrence": 5
+    },
+    {
+      "name": "文本框 494",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 495",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 496",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 497",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 4",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646545,
+    "top": 1330282,
+    "right": 11425385,
+    "bottom": 5924344
+  },
+  "geometry_sha256": "1088CCF208C5FC20A9CE80AAA373E1CDFCE7CBA4B63EDDE0C1555430F6140F73",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "文本框 470",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 481",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 29
+      },
+      {
+        "shape": "文本框 482",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 483",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 28
+      },
+      {
+        "shape": "文本框 484",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 485",
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 24
+      },
+      {
+        "shape": "文本框 494",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 495",
+        "required": true,
+        "min_chars": 15,
+        "max_chars": 27
+      },
+      {
+        "shape": "文本框 496",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 497",
+        "required": true,
+        "min_chars": 26,
+        "max_chars": 46
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

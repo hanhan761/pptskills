@@ -9,6 +9,14 @@
       "source_asset": "模板/母版/通用蓝白/母版源.pptx",
       "contract": "模板/母版/通用蓝白/family.json",
       "status": "active"
+    },
+    {
+      "family_id": "public-jade-green",
+      "display_name": "通用青绿",
+      "directory": "模板/母版/通用青绿",
+      "source_asset": "模板/母版/通用青绿/母版源.pptx",
+      "contract": "模板/母版/通用青绿/family.json",
+      "status": "active"
     }
   ]
 }

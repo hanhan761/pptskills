@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/team-project-foundation-generic.pptx",
     "sha256": "D44D59D9CF00807E57FFFE9BB6BAFB633DBFB01EC4D046EA37CD9311D0FB55DC",
     "slide": 1,
-    "master_family": "legacy-additive-manufacturing",
+    "master_family": "public-legacy-source",
     "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
   },
   "shape_refs": [

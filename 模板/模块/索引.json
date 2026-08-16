@@ -390,6 +390,186 @@
         "public-blue-white"
       ],
       "status": "active"
+    },
+    {
+      "module_id": "jade-six-node-season-timeline",
+      "display_name": "通用青绿｜六节点时间路径",
+      "communication_job": "按时间顺序解释六个阶段、节点或里程碑",
+      "contract": "模板/模块/内容/新中式青绿_六节点时间路径.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-layer-left-text-right-image",
+      "display_name": "通用青绿｜三层左文右图",
+      "communication_job": "以三层纵向解读配一张右侧主视觉",
+      "contract": "模板/模块/内容/新中式青绿_三层左文右图.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-point-staggered-evidence",
+      "display_name": "通用青绿｜三要点错位图文",
+      "communication_job": "用三组错位文字与图片解释并列变化",
+      "contract": "模板/模块/内容/新中式青绿_三要点错位图文.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-case-stacked-evidence",
+      "display_name": "通用青绿｜双案例上下证据",
+      "communication_job": "上下展开两个案例、病症或证据单元",
+      "contract": "模板/模块/内容/新中式青绿_双案例上下证据.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-case-side-by-side",
+      "display_name": "通用青绿｜双案例左右图文",
+      "communication_job": "左右并列比较两个案例、机制或方案",
+      "contract": "模板/模块/内容/新中式青绿_双案例左右图文.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-principles-two-images",
+      "display_name": "通用青绿｜三原则与双图",
+      "communication_job": "三项原则卡片配两张真实证据图",
+      "contract": "模板/模块/内容/新中式青绿_三原则与双图.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-actions-side-image",
+      "display_name": "通用青绿｜三措施与侧图",
+      "communication_job": "三项措施卡片配一张右侧情境图",
+      "contract": "模板/模块/内容/新中式青绿_三措施与侧图.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-central-visual-two-sided-reading",
+      "display_name": "通用青绿｜中心视觉双侧解读",
+      "communication_job": "以中心主视觉连接左右两组机制说明",
+      "contract": "模板/模块/内容/新中式青绿_中心视觉双侧解读.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-time-routine-main-image",
+      "display_name": "通用青绿｜三时段与主图",
+      "communication_job": "用三条时段安排配一张右侧主视觉",
+      "contract": "模板/模块/内容/新中式青绿_三时段与主图.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-mechanism-overlap",
+      "display_name": "通用青绿｜双机制交叠对照",
+      "communication_job": "用相交圆与双侧说明表现两种机制的联系",
+      "contract": "模板/模块/内容/新中式青绿_双机制交叠对照.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-solutions-four-image-matrix",
+      "display_name": "通用青绿｜双方案与四图矩阵",
+      "communication_job": "两组文字方案配四张证据图片",
+      "contract": "模板/模块/内容/新中式青绿_双方案与四图矩阵.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-image-text-cards",
+      "display_name": "通用青绿｜双图文卡并列",
+      "communication_job": "以两张大图和两段说明并列呈现两类方案",
+      "contract": "模板/模块/内容/新中式青绿_双图文卡并列.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-conclusion-staggered-story",
+      "display_name": "通用青绿｜双结论错位叙事",
+      "communication_job": "用上下错位的两组长文讲清两条判断",
+      "contract": "模板/模块/内容/新中式青绿_双结论错位叙事.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-five-criteria-center-image",
+      "display_name": "通用青绿｜五项建议中心主图",
+      "communication_job": "围绕一张中心主图说明五项条件、建议或标准",
+      "contract": "模板/模块/内容/新中式青绿_五项建议中心主图.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-five-option-horizontal-gallery",
+      "display_name": "通用青绿｜五类选项横向图鉴",
+      "communication_job": "用五张并列图片快速介绍五类对象或方法",
+      "contract": "模板/模块/内容/新中式青绿_五类选项横向图鉴.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-four-quadrant-center-object",
+      "display_name": "通用青绿｜四象限中心对象",
+      "communication_job": "围绕中心对象解释四类适用条件或分支",
+      "contract": "模板/模块/内容/新中式青绿_四象限中心对象.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-three-method-image-cards",
+      "display_name": "通用青绿｜三方法图文卡",
+      "communication_job": "以三张图片和三段说明介绍三种方法",
+      "contract": "模板/模块/内容/新中式青绿_三方法图文卡.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
+    },
+    {
+      "module_id": "jade-two-object-location-guide",
+      "display_name": "通用青绿｜双对象部位说明",
+      "communication_job": "用两张部位图与长短说明解释两个对象",
+      "contract": "模板/模块/内容/新中式青绿_双对象部位说明.module.json",
+      "compatible_master_families": [
+        "public-jade-green"
+      ],
+      "status": "active"
     }
   ]
 }

@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/cross-master-three-stage-evidence-loop.pptx",
     "sha256": "F6A3CD17686219C4148E758505F65AB7D8D1CBADF0DCC92D85FDB3D7A8143329",
     "slide": 1,
-    "master_family": "legacy-additive-manufacturing",
+    "master_family": "public-legacy-source",
     "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
   },
   "shape_refs": [

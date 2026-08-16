@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-three-method-image-cards",
+  "display_name": "通用青绿｜三方法图文卡",
+  "communication_job": "以三张图片和三段说明介绍三种方法",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 23,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 6",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 9",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 10",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 13",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 14",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 3
+    },
+    {
+      "name": "文本框 16",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 17",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 4",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 5",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 18",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646545,
+    "top": 1330282,
+    "right": 11345503,
+    "bottom": 6197600
+  },
+  "geometry_sha256": "6CBB2B2C04F696BC5BA1039E52EFB78ED2C8BE32D83D6BA7E5A097C27FBC5339",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "文本框 8",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 11,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          11
+        ]
+      },
+      {
+        "shape": "文本框 9",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 45
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 13",
+        "required": true,
+        "min_chars": 23,
+        "max_chars": 40
+      },
+      {
+        "shape": "文本框 16",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 17",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 28
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

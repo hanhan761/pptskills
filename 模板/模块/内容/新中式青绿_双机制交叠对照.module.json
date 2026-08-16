@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-two-mechanism-overlap",
+  "display_name": "通用青绿｜双机制交叠对照",
+  "communication_job": "用相交圆与双侧说明表现两种机制的联系",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 16,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 4",
+      "occurrence": 1
+    },
+    {
+      "name": "明月设计2",
+      "occurrence": 1
+    },
+    {
+      "name": "明月设计1",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 9",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 10",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 11",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 13",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 14",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 5",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 6",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 423,
+    "top": 1330282,
+    "right": 12192000,
+    "bottom": 6338914
+  },
+  "geometry_sha256": "D40387039317AEE77D08502F8D178E17F1C684B9B9FD8BA1283CF39F011F9495",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 28
+      },
+      {
+        "shape": "文本框 4",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "文本框 9",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 10",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 11",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 44
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 24,
+        "max_chars": 42
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

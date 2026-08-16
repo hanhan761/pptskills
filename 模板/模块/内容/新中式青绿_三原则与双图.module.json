@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-three-principles-two-images",
+  "display_name": "通用青绿｜三原则与双图",
+  "communication_job": "三项原则卡片配两张真实证据图",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 11,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "缺角矩形 34",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 37",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 38",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 39",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 48",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 49",
+      "occurrence": 1
+    },
+    {
+      "name": "缺角矩形 50",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 51",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 52",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 57",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 62",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 63",
+      "occurrence": 1
+    },
+    {
+      "name": "缺角矩形 64",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 65",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 66",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 71",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 76",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 77",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 79",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 3",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 4",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 858969,
+    "top": 1429347,
+    "right": 11692890,
+    "bottom": 5963083
+  },
+  "geometry_sha256": "956BE850CE57E1B71C5BE9264FA0E793DA429AEC6C5A99EAA5D9FEA90147B1AB",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 48",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "文本框 49",
+        "required": true,
+        "min_chars": 25,
+        "max_chars": 45
+      },
+      {
+        "shape": "文本框 62",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "文本框 63",
+        "required": true,
+        "min_chars": 26,
+        "max_chars": 46
+      },
+      {
+        "shape": "文本框 76",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      },
+      {
+        "shape": "文本框 77",
+        "required": true,
+        "min_chars": 27,
+        "max_chars": 47
+      },
+      {
+        "shape": "文本框 79",
+        "required": true,
+        "min_chars": 28,
+        "max_chars": 48
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

@@ -1,15 +1,17 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "passed": true,
-  "files_scanned": 100,
-  "pptx_scanned": 40,
-  "visible_text_nodes_neutralized": 5219,
-  "master_validation": "passed",
-  "module_contracts_checked": 39,
-  "module_contracts_passed": 39,
+  "files_scanned": 131,
+  "pptx_scanned": 41,
+  "master_families_checked": 2,
+  "module_contracts_checked": 57,
+  "contract_validation": "passed",
   "composition_smoke_test": "passed",
   "single_master_smoke_test": "passed",
+  "readme_image_validation": "passed",
+  "visible_text_nodes_neutralized": 5685,
   "unexpected_media": 0,
   "embedded_payloads": 0,
-  "sensitive_findings": 0
+  "sensitive_findings": 0,
+  "issues": []
 }

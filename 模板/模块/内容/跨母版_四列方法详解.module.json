@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/cross-master-four-column-dense-text.pptx",
     "sha256": "48C54F3A601D7F45AA5745F71C4C6E8D9317842A0C2DDB97E577BF3491E4FB2A",
     "slide": 1,
-    "master_family": "legacy-ai-education-ws2",
+    "master_family": "public-legacy-source",
     "master_sha256": "69770F6C25D2EF71CD0E47C6F8ACAA39D8A37CE3B49868BEDD96F040C9D359B9"
   },
   "shape_refs": [

@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/team-core-four-role-profile.pptx",
     "sha256": "9F563BEA2A7B587CD599896718DD9C8FBD80F8C84A201207B5F42942F725049B",
     "slide": 1,
-    "master_family": "legacy-additive-manufacturing",
+    "master_family": "public-legacy-source",
     "master_sha256": "99EAA16BB624BBAE4F3ED5BA9953CF6C5976A5CA49558B5EB01E80BC1773BCB0"
   },
   "shape_refs": [

@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/cross-master-two-mechanism-cards.pptx",
     "sha256": "35F240B9D4D318EB6BDE2C9DD5D31C5EE503C891402E5C3BA278CB2269B68893",
     "slide": 1,
-    "master_family": "legacy-ai-education-v3",
+    "master_family": "public-legacy-source",
     "master_sha256": "69770F6C25D2EF71CD0E47C6F8ACAA39D8A37CE3B49868BEDD96F040C9D359B9"
   },
   "shape_refs": [

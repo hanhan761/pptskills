@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-three-point-staggered-evidence",
+  "display_name": "通用青绿｜三要点错位图文",
+  "communication_job": "用三组错位文字与图片解释并列变化",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 7,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "组合 5",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 9",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 10",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 32",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 33",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 34",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 35",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 36",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 37",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 42",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 1",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 2",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 4",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 360406,
+    "top": 1219200,
+    "right": 11369071,
+    "bottom": 6528620
+  },
+  "geometry_sha256": "7D50FC8541B125E743FA5346A45F9A397CDE5016F6A5256470EE2FCF8683EBD0",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 32",
+        "required": true,
+        "min_chars": 23,
+        "max_chars": 41
+      },
+      {
+        "shape": "文本框 33",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 34",
+        "required": true,
+        "min_chars": 28,
+        "max_chars": 48
+      },
+      {
+        "shape": "文本框 35",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 36",
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 39
+      },
+      {
+        "shape": "文本框 37",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

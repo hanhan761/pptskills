@@ -8,7 +8,7 @@
     "deck": "模板/模块/源页/cross-master-four-column-real-images.pptx",
     "sha256": "C744683D3CA296FC2BD7D6163CD8A2E52101E2EEDF9972D165BA6105687DC578",
     "slide": 1,
-    "master_family": "legacy-blue-technology",
+    "master_family": "public-legacy-source",
     "master_sha256": "ED255DF4365EE28D80B681B74DFA86D9E1CF97C375D7264B0668668374EEF640"
   },
   "shape_refs": [

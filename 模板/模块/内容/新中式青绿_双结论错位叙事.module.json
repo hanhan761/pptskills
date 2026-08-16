@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-two-conclusion-staggered-story",
+  "display_name": "通用青绿｜双结论错位叙事",
+  "communication_job": "用上下错位的两组长文讲清两条判断",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 19,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "Freeform 33",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 4",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 10",
+      "occurrence": 1
+    },
+    {
+      "name": "Freeform 17",
+      "occurrence": 1
+    },
+    {
+      "name": "Freeform 33",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 19",
+      "occurrence": 1
+    },
+    {
+      "name": "Freeform 17",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 21",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 22",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646545,
+    "top": 1330282,
+    "right": 11314771,
+    "bottom": 6219969
+  },
+  "geometry_sha256": "E6B530EAD0E6EE5369B143FE25BC509D580035E98899EC7AAB864E2118DEA132",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 4",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "文本框 10",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 19",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 21",
+        "required": true,
+        "min_chars": 49,
+        "max_chars": 81
+      },
+      {
+        "shape": "文本框 22",
+        "required": true,
+        "min_chars": 49,
+        "max_chars": 81
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-three-actions-side-image",
+  "display_name": "通用青绿｜三措施与侧图",
+  "communication_job": "三项措施卡片配一张右侧情境图",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 13,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "文本框 21",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 24",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 27",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 31",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 2
+    },
+    {
+      "name": "文本框 33",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 34",
+      "occurrence": 1
+    },
+    {
+      "name": "标题 1",
+      "occurrence": 3
+    },
+    {
+      "name": "文本框 36",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 38",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 39",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 40",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 2",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 846497,
+    "top": 1671693,
+    "right": 11553825,
+    "bottom": 5899355
+  },
+  "geometry_sha256": "CFAB84F79D4F88CB49C7171F04B00D8A2B7821E6A6DD12C4699EC31B102F11FD",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 21",
+        "required": true,
+        "min_chars": 34,
+        "max_chars": 56
+      },
+      {
+        "shape": "文本框 27",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 33",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 36",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 38",
+        "required": true,
+        "min_chars": 17,
+        "max_chars": 30
+      },
+      {
+        "shape": "文本框 39",
+        "required": true,
+        "min_chars": 20,
+        "max_chars": 35
+      },
+      {
+        "shape": "文本框 40",
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 33
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

@@ -263,10 +263,15 @@ Picture replacement uses only existing picture shapes and keeps the frame fixed:
     "image": "task/task1/images/factory.png",
     "fit": "cover",
     "focal_x": 0.6,
-    "focal_y": 0.45
+    "focal_y": 0.45,
+    "caption": "RAMFIRE nozzle hot-fire test",
+    "credit": "NASA, 2023",
+    "source_page": "https://www.nasa.gov/..."
   }]
 }
 ```
+
+When caption fields are present, `replace-image` must also update the picture's native `cNvPr` `title` and `descr`; changing the displayed media while leaving old alternative text and source metadata is a failed replacement.
 
 When a mounted cross-source module contains a shape whose name collides with a fixed target-shell shape, keep `occurrence` aligned with the source module contract and use `output_occurrence` to select the actual same-named shape in the assembled slide. Never rename or replace the fixed shell shape to resolve the collision.
 
@@ -283,6 +288,7 @@ Use real images by default. Record one verified source entry per replacement:
   "images": [{
     "slide": 2,
     "shape": "图片 5",
+    "file": "task/task1/images/factory.png",
     "caption": "RAMFIRE nozzle hot-fire test / NASA, 2023",
     "source_page": "https://www.nasa.gov/...",
     "credit": "NASA",
@@ -293,6 +299,25 @@ Use real images by default. Record one verified source entry per replacement:
 ```
 
 Reject an image if the subject, source page, credit, or usage status cannot be established. The on-slide caption and manifest must agree.
+
+### Zero-reuse image contract
+
+Default to one independent original visual asset per replaceable content-image frame across the whole deliverable. The following are the same asset, not new assets:
+
+- an identical file under another name or extension;
+- recompression, resizing, flipping, recoloring, or format conversion;
+- multiple crops or screenshots of the same original;
+- a full paper/PDF page and a figure crop taken from that same page.
+
+The task-local source manifest must have one record per picture frame. Before replacement and before delivery, audit normalized file paths, source-file SHA256, perceptual hashes, and source identities. Perceptual near-matches require visual review and must be replaced unless the user explicitly requested a same-image comparison. Store the audit internally, never in the delivery directory.
+
+```powershell
+python script/audit_ppt_image_uniqueness.py `
+  --sources <sources.json> `
+  --repo-root <repo-root> `
+  --expected-count <replaceable-picture-frame-count> `
+  --output <internal-image-uniqueness-audit.json>
+```
 
 ## Required validation
 
@@ -306,6 +331,7 @@ A deck passes only when:
 - the module-rhythm audit shows no unexplained adjacent duplicate and no more than two uses of one module in any five consecutive正文 pages; any approved parallel set contains at most three adjacent pages and records its shared comparison dimension;
 - text capacities, title lines, and style roles pass;
 - all images and captions match the source manifest;
+- the image-source manifest has one record per replaceable picture frame, and path, SHA256, perceptual-hash, source-identity, and visual near-duplicate checks show no unexplained reuse;
 - every rendered page has been visually reviewed;
 - the delivery directory contains only the final PPTX.
 

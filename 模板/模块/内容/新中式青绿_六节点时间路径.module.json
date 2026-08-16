@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-six-node-season-timeline",
+  "display_name": "通用青绿｜六节点时间路径",
+  "communication_job": "按时间顺序解释六个阶段、节点或里程碑",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 5,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 9",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 14",
+      "occurrence": 1
+    },
+    {
+      "name": "1",
+      "occurrence": 1
+    },
+    {
+      "name": "1",
+      "occurrence": 2
+    },
+    {
+      "name": "1",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-1",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-1",
+      "occurrence": 1
+    },
+    {
+      "name": "2",
+      "occurrence": 1
+    },
+    {
+      "name": "2",
+      "occurrence": 2
+    },
+    {
+      "name": "2",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-2",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-2",
+      "occurrence": 1
+    },
+    {
+      "name": "3",
+      "occurrence": 1
+    },
+    {
+      "name": "3",
+      "occurrence": 2
+    },
+    {
+      "name": "3",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-3",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-3",
+      "occurrence": 1
+    },
+    {
+      "name": "4",
+      "occurrence": 1
+    },
+    {
+      "name": "4",
+      "occurrence": 2
+    },
+    {
+      "name": "4",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-4",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-4",
+      "occurrence": 1
+    },
+    {
+      "name": "5",
+      "occurrence": 1
+    },
+    {
+      "name": "5",
+      "occurrence": 2
+    },
+    {
+      "name": "5",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-5",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-5",
+      "occurrence": 1
+    },
+    {
+      "name": "6",
+      "occurrence": 1
+    },
+    {
+      "name": "6",
+      "occurrence": 2
+    },
+    {
+      "name": "6",
+      "occurrence": 3
+    },
+    {
+      "name": "Title-6",
+      "occurrence": 1
+    },
+    {
+      "name": "Body-6",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 586646,
+    "top": 1476160,
+    "right": 11588780,
+    "bottom": 6379845
+  },
+  "geometry_sha256": "B04A7C7CCB0A3B3CE8ED633EA8E8546CB8C79A11A0B3A8C3CD4FBC5178264A29",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "矩形 9",
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22,
+        "line_count": 1,
+        "line_min_chars": [
+          12
+        ],
+        "line_max_chars": [
+          22
+        ]
+      },
+      {
+        "shape": "Title-1",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-1",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "Title-2",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-2",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "Title-3",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-3",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "Title-4",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-4",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "Title-5",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-5",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "Title-6",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "Body-6",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

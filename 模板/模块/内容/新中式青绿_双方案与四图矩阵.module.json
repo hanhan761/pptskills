@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-two-solutions-four-image-matrix",
+  "display_name": "通用青绿｜双方案与四图矩阵",
+  "communication_job": "两组文字方案配四张证据图片",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 17,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 4",
+      "occurrence": 1
+    },
+    {
+      "name": "缺角矩形 10",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 11",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 13",
+      "occurrence": 1
+    },
+    {
+      "name": "缺角矩形 16",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 17",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 18",
+      "occurrence": 1
+    },
+    {
+      "name": "组合 20",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 29",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 30",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 32",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 34",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646545,
+    "top": 1330282,
+    "right": 11425383,
+    "bottom": 6092833
+  },
+  "geometry_sha256": "A2DF6764474ECA49314ED6AD89C6F1DAF2E8DFE83F31BD6B0A90122B1C6F8BC4",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 26,
+        "max_chars": 46
+      },
+      {
+        "shape": "文本框 4",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 12,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          12
+        ]
+      },
+      {
+        "shape": "文本框 11",
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 23
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "文本框 17",
+        "required": true,
+        "min_chars": 19,
+        "max_chars": 34
+      },
+      {
+        "shape": "文本框 18",
+        "required": true,
+        "min_chars": 1,
+        "max_chars": 4,
+        "line_count": 1,
+        "line_min_chars": [
+          1
+        ],
+        "line_max_chars": [
+          4
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

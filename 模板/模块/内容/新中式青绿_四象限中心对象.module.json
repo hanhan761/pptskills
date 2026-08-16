@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-four-quadrant-center-object",
+  "display_name": "通用青绿｜四象限中心对象",
+  "communication_job": "围绕中心对象解释四类适用条件或分支",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 22,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 6",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 4",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 5",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 7",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 8",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 9",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 10",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 11",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 12",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 13",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 14",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 15",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 16",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 17",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 18",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 19",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646544,
+    "top": 1330282,
+    "right": 11344814,
+    "bottom": 6027153
+  },
+  "geometry_sha256": "3625AC4645EEEF0C84E9DDAFD5EABAB2EEEF02789487487C4AFE3F0554F2DBF2",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "文本框 6",
+        "required": true,
+        "min_chars": 30,
+        "max_chars": 49
+      },
+      {
+        "shape": "文本框 8",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 28
+      },
+      {
+        "shape": "文本框 9",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 11",
+        "required": true,
+        "min_chars": 13,
+        "max_chars": 23
+      },
+      {
+        "shape": "文本框 12",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 7,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          7
+        ]
+      },
+      {
+        "shape": "文本框 14",
+        "required": true,
+        "min_chars": 21,
+        "max_chars": 36
+      },
+      {
+        "shape": "文本框 15",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 17",
+        "required": true,
+        "min_chars": 16,
+        "max_chars": 29
+      },
+      {
+        "shape": "文本框 18",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 8,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          8
+        ]
+      },
+      {
+        "shape": "文本框 19",
+        "required": true,
+        "min_chars": 3,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          3
+        ],
+        "line_max_chars": [
+          6
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

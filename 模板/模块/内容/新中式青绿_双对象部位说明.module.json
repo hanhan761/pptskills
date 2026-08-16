@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "module_id": "jade-two-object-location-guide",
+  "display_name": "通用青绿｜双对象部位说明",
+  "communication_job": "用两张部位图与长短说明解释两个对象",
+  "status": "active",
+  "source": {
+    "deck": "模板/母版/通用青绿/母版源.pptx",
+    "sha256": "8823AC08843B410C40006F4F54F9AB761246C49C0B48DDEC814C14A3C90FDA5B",
+    "slide": 24,
+    "master_family": "public-jade-green",
+    "master_sha256": "CE959B0D8F5408E160AD37D934E1AD44E7275056440D350A303B9DBEFAE42A8C"
+  },
+  "shape_refs": [
+    {
+      "name": "矩形 47",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形 46",
+      "occurrence": 1
+    },
+    {
+      "name": "矩形: 圆角 2",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 3",
+      "occurrence": 1
+    },
+    {
+      "name": "图形",
+      "occurrence": 1
+    },
+    {
+      "name": "图形",
+      "occurrence": 2
+    },
+    {
+      "name": "图形",
+      "occurrence": 3
+    },
+    {
+      "name": "图形",
+      "occurrence": 4
+    },
+    {
+      "name": "文本框 38",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 39",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 41",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 42",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 43",
+      "occurrence": 1
+    },
+    {
+      "name": "直接箭头连接符 45",
+      "occurrence": 1
+    },
+    {
+      "name": "图片 49",
+      "occurrence": 1
+    },
+    {
+      "name": "椭圆 50",
+      "occurrence": 1
+    },
+    {
+      "name": "文本框 51",
+      "occurrence": 1
+    },
+    {
+      "name": "直接箭头连接符 52",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 646545,
+    "top": 1330282,
+    "right": 11376361,
+    "bottom": 6352342
+  },
+  "geometry_sha256": "0A613600E5ACBEE8453A606DD3FDF4344976EEFB3A3F7BCF3122E0360EECB414",
+  "compatible_master_families": [
+    "public-jade-green"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "文本框 3",
+        "required": true,
+        "min_chars": 5,
+        "max_chars": 9,
+        "line_count": 1,
+        "line_min_chars": [
+          5
+        ],
+        "line_max_chars": [
+          9
+        ]
+      },
+      {
+        "shape": "图形",
+        "required": true,
+        "min_chars": 58,
+        "max_chars": 94,
+        "occurrence": 2
+      },
+      {
+        "shape": "图形",
+        "required": true,
+        "min_chars": 68,
+        "max_chars": 111,
+        "occurrence": 4
+      },
+      {
+        "shape": "文本框 38",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 39",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 43",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      },
+      {
+        "shape": "文本框 51",
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 5,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          5
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "within_safe_region": true,
+    "visual_reviewed": true,
+    "public_sanitized": true
+  }
+}
