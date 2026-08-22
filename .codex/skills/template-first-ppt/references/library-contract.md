@@ -288,9 +288,11 @@ Use real images by default. Record one verified source entry per replacement:
   "images": [{
     "slide": 2,
     "shape": "图片 5",
+    "source_id": "nasa-ramfire-hot-fire-2023",
     "file": "task/task1/images/factory.png",
     "caption": "RAMFIRE nozzle hot-fire test / NASA, 2023",
     "source_page": "https://www.nasa.gov/...",
+    "direct_url": "https://www.nasa.gov/.../factory.png",
     "credit": "NASA",
     "depicted_subject": "RAMFIRE additively manufactured nozzle during a hot-fire test",
     "verified": true
@@ -302,14 +304,15 @@ Reject an image if the subject, source page, credit, or usage status cannot be e
 
 ### Zero-reuse image contract
 
-Default to one independent original visual asset per replaceable content-image frame across the whole deliverable. The following are the same asset, not new assets:
+Use exactly one independent original visual asset per replaceable content-image frame across the whole deliverable. There is no shared-image exception. The following are the same asset, not new assets:
 
 - an identical file under another name or extension;
 - recompression, resizing, flipping, recoloring, or format conversion;
 - multiple crops or screenshots of the same original;
-- a full paper/PDF page and a figure crop taken from that same page.
+- a full paper/PDF page and a figure crop taken from that same page;
+- two records with the same `source_id`, direct source URL, or source file, even when captions differ.
 
-The task-local source manifest must have one record per picture frame. Before replacement and before delivery, audit normalized file paths, source-file SHA256, perceptual hashes, and source identities. Perceptual near-matches require visual review and must be replaced unless the user explicitly requested a same-image comparison. Store the audit internally, never in the delivery directory.
+The task-local source manifest must have one record per semantic content picture in the final deck, including content images retained inside a module. Fixed brand imagery is excluded only when the family contract explicitly lists it. Use a stable `source_id` for the exact original visual whenever a source page contains multiple assets; otherwise record a direct original-asset URL. Do not use `shared_visual_slot` or any equivalent field. Before replacement and before delivery, audit normalized file paths, source-file SHA256, perceptual hashes, stable source identities, and final embedded bytes. Every duplicate and every perceptual near-match is a hard failure and must be replaced. Store the audit internally, never in the delivery directory.
 
 ```powershell
 python script/audit_ppt_image_uniqueness.py `
@@ -317,6 +320,9 @@ python script/audit_ppt_image_uniqueness.py `
   --repo-root <repo-root> `
   --expected-count <replaceable-picture-frame-count> `
   --output <internal-image-uniqueness-audit.json>
+python script/verify_ppt_image_sources.py `
+  --input <working-output.pptx> `
+  --sources <sources.json>
 ```
 
 ## Required validation
@@ -331,7 +337,7 @@ A deck passes only when:
 - the module-rhythm audit shows no unexplained adjacent duplicate and no more than two uses of one module in any five consecutive正文 pages; any approved parallel set contains at most three adjacent pages and records its shared comparison dimension;
 - text capacities, title lines, and style roles pass;
 - all images and captions match the source manifest;
-- the image-source manifest has one record per replaceable picture frame, and path, SHA256, perceptual-hash, source-identity, and visual near-duplicate checks show no unexplained reuse;
+- the image-source manifest has one record per replaceable picture frame, contains stable source identities, and path, SHA256, perceptual-hash, source-identity, final embedded-byte, and visual near-duplicate checks show no reuse;
 - every rendered page has been visually reviewed;
 - the delivery directory contains only the final PPTX.
 

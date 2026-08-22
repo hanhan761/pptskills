@@ -1,0 +1,4 @@
+interface:
+  display_name: "直接文风润色"
+  short_description: "清理防御性、迂回、重复和复杂句，保留事实与版式合同"
+  default_prompt: "使用 $slide-copy-polisher 润色 PPT 页面文案和讲稿，保持直接、干净，不改版式。"

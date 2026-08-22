@@ -23,6 +23,16 @@ def digest(payload: bytes) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def source_identity(record: dict) -> str:
+    """Use a source identity that does not depend on the caption text."""
+
+    for key in ("source_id", "source_file", "direct_url", "source_page"):
+        value = str(record.get(key, "") or "").strip()
+        if value:
+            return f"{key}:{value}"
+    return ""
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Verify embedded picture bytes, fallback cleanup, caption and source metadata"
@@ -41,6 +51,10 @@ def main() -> None:
 
     errors: list[str] = []
     checked = 0
+    embedded_sha_seen: dict[str, str] = {}
+    source_identity_seen: dict[str, str] = {}
+    embedded_sha_reuse: dict[str, list[str]] = {}
+    source_identity_reuse: dict[str, list[str]] = {}
     with zipfile.ZipFile(deck, "r") as archive:
         names = set(archive.namelist())
         slide_cache: dict[int, ET.Element] = {}
@@ -51,6 +65,24 @@ def main() -> None:
             occurrence = int(record.get("occurrence", 1))
             context = f"slide {slide_number} {shape_name!r} occurrence {occurrence}"
             try:
+                if str(record.get("shared_visual_slot", "") or "").strip():
+                    raise ValueError("shared_visual_slot is forbidden for content images")
+                identity = source_identity(record)
+                if not identity:
+                    raise ValueError(
+                        "missing stable source identity; add source_id, source_file, "
+                        "direct_url, or source_page"
+                    )
+                previous_identity = source_identity_seen.get(identity)
+                if previous_identity:
+                    source_identity_reuse.setdefault(identity, [previous_identity]).append(
+                        context
+                    )
+                    errors.append(
+                        f"{context}: source identity is already used by {previous_identity}"
+                    )
+                else:
+                    source_identity_seen[identity] = context
                 if slide_number not in slide_cache:
                     xml_name = slide_xml_name(slide_number)
                     rels_name = slide_rels_name(slide_number)
@@ -91,8 +123,20 @@ def main() -> None:
                 )
                 if media_name not in names:
                     raise ValueError(f"embedded media missing: {media_name}")
+                embedded_bytes = archive.read(media_name)
+                embedded_sha = digest(embedded_bytes)
+                previous_media = embedded_sha_seen.get(embedded_sha)
+                if previous_media:
+                    embedded_sha_reuse.setdefault(embedded_sha, [previous_media]).append(
+                        context
+                    )
+                    errors.append(
+                        f"{context}: embedded image bytes are reused from {previous_media}"
+                    )
+                else:
+                    embedded_sha_seen[embedded_sha] = context
                 source_file = resolve_repo_path(record["file"], repo)
-                if digest(archive.read(media_name)) != digest(source_file.read_bytes()):
+                if embedded_sha != digest(source_file.read_bytes()):
                     errors.append(f"{context}: embedded bytes do not match source asset")
                 checked += 1
             except Exception as exc:
@@ -102,6 +146,8 @@ def main() -> None:
         "ok": not errors,
         "deck": str(deck),
         "records_checked": checked,
+        "embedded_sha_reuse": embedded_sha_reuse,
+        "source_identity_reuse": source_identity_reuse,
         "errors": errors,
     }
     print(json.dumps(result, ensure_ascii=False, indent=2))

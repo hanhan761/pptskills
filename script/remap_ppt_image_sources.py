@@ -131,11 +131,6 @@ def main() -> None:
                 "sha256": digest(source_file.read_bytes()),
                 "dhash16": dhash(source_file),
                 "verified": True,
-                "shared_visual_slot": (
-                    "slide19-first-column-dual-picture-layer"
-                    if str(record["shape"]) in {"图片 32", "图片 1"}
-                    else None
-                ),
             }
         )
         claimed.add((item["slide"], item["shape"], item["occurrence"]))
