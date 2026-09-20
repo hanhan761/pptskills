@@ -37,6 +37,8 @@ When a template is supplied, inspect and render it before drafting. Absorb its v
 
 Use the built-in `$imagegen` workflow for visual exploration and for an original logo/mark when appropriate. Use exact copy in the draft; if imagegen cannot render text reliably, compose a deterministic text overlay on top of the generated visual so the human reviews the real wording rather than hallucinated lettering. A generated logo is an image asset, not permission to flatten the whole slide.
 
+If the built-in `image_gen` tool is not registered but the user has explicitly chosen the configured CPA provider, use [the CPA imagegen fallback](references/cpa-imagegen.md). It invokes the installed imagegen CLI against the provider's OpenAI-compatible image endpoint and keeps the short-lived token out of files and logs. Query the provider's authenticated model catalog first and pass the exact advertised image model ID. This fallback does not bypass the GPT-6 gate or the human review gate.
+
 For photographs, screenshots, devices, places, people, experiments, and events, find real and traceable source assets. Do not use an AI-generated scene as evidence or as a substitute for a real source image. Record source URL, creator or institution, title/description, retrieval date, and usage notes.
 
 Produce reviewable PNG/JPEG page images, a contact sheet for multi-page work, a copy manifest, an asset/source manifest, and `review_state.json`. The draft may be a visual composition, but it must be concrete enough to judge hierarchy, image choice, crop, density, and wording.

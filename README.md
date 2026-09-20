@@ -1,6 +1,6 @@
 # pptskills
 
-![pptskills：母版家族、内容模块与验证交付流程](docs/images/pptskills-workflow.png)
+![pptskills：母版家族、内容模块与验证交付流程](docs/images/pptskills-repository-overview-cpa.png)
 
 一套“**统一母版、模板优先**”的 PowerPoint 工作流。它不让模型从零发明整页版式，而是把稳定质量拆成两层：
 
