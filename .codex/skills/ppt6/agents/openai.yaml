@@ -1,0 +1,7 @@
+interface:
+  display_name: "PPT6"
+  short_description: "先生成并人工审核图片稿，再制作可编辑的 PowerPoint"
+  default_prompt: "使用 $ppt6 先生成并审核图片稿，再制作可编辑的 PowerPoint。"
+
+policy:
+  allow_implicit_invocation: false
