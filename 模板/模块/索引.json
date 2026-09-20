@@ -2,6 +2,16 @@
   "schema_version": 1,
   "modules": [
     {
+      "module_id": "xjtu-acceptance-fullwidth-resource-system-three-evidence",
+      "display_name": "基础力学实验｜验收机制全幅资源图与三类证据",
+      "communication_job": "完整展示超宽资源体系图，并把建设、运行与课堂表现收束为可核验的验收证据链",
+      "contract": "模板/模块/内容/基础力学实验_验收机制_全幅资源图三证据.module.json",
+      "compatible_master_families": [
+        "public-blue-white"
+      ],
+      "status": "active"
+    },
+    {
       "module_id": "rd-hero-evidence-three-layer-interpretation",
       "display_name": "研发部｜主视觉证据与三层工程解读",
       "communication_job": "以一张真实主视觉建立证据，分三层解释工程含义，并用底部判断句完成验收或概念纠偏",

@@ -1,0 +1,4 @@
+interface:
+  display_name: "统一母版 PPT"
+  short_description: "锁定一个母版家族，只复用标题下内容模块并替换文案与真实图片"
+  default_prompt: "使用 $template-first-ppt 锁定一个母版家族，复用已验证的标题下内容模块制作一份演示文稿。"

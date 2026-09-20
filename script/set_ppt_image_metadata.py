@@ -51,12 +51,15 @@ def main() -> None:
                 shape_name = str(record["shape"])
                 occurrence = int(record.get("occurrence", 1))
                 picture = named_shape_container(root, shape_name, occurrence)
-                if picture.tag != f"{{{NS['p']}}}pic":
+                if picture.tag == f"{{{NS['p']}}}pic":
+                    properties = picture.find("./p:nvPicPr/p:cNvPr", NS)
+                elif picture.tag == f"{{{NS['p']}}}sp":
+                    properties = picture.find("./p:nvSpPr/p:cNvPr", NS)
+                else:
                     raise SystemExit(
                         f"Slide {slide_number} shape {shape_name!r} occurrence "
-                        f"{occurrence} is not a picture"
+                        f"{occurrence} is neither a picture nor a picture-filled shape"
                     )
-                properties = picture.find("./p:nvPicPr/p:cNvPr", NS)
                 if properties is None:
                     raise SystemExit(
                         f"Slide {slide_number} shape {shape_name!r} has no cNvPr"

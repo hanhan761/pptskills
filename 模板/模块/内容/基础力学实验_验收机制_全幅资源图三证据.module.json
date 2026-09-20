@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "module_id": "xjtu-acceptance-fullwidth-resource-system-three-evidence",
+  "display_name": "基础力学实验｜验收机制全幅资源图与三类证据",
+  "communication_job": "完整展示超宽资源体系图，并把建设、运行与课堂表现收束为可核验的验收证据链",
+  "extension_direction": "资源体系验收、教学平台证据链、项目运行闭环",
+  "status": "active",
+  "source": {
+    "deck": "模板研发部门/已审核/基础力学实验_验收机制_全幅资源图三证据.pptx",
+    "sha256": "5669019317B8B60F96FF597EDCE0C4AE5C2F190DB8A4BDC58DD146AFFCC39106",
+    "slide": 1,
+    "master_family": "public-blue-white",
+    "master_sha256": "727C2B233E71E9AC2DCC87989DCB39E139F6689263EA16DA3ED7DBBD8B5F700F"
+  },
+  "shape_refs": [
+    {
+      "name": "P18_导语强调线",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_导语",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_基础力学实验数智教学资源体系",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_资源体系图边框",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_图注底板",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_图注",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡1_底板",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡1_色条",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡1_顶线",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡1_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡1_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡2_底板",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡2_色条",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡2_顶线",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡2_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡2_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡3_底板",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡3_色条",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡3_顶线",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡3_标题",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_证据卡3_正文",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_结论底板",
+      "occurrence": 1
+    },
+    {
+      "name": "P18_结论",
+      "occurrence": 1
+    }
+  ],
+  "bounds_emu": {
+    "left": 482600,
+    "top": 723900,
+    "right": 11569700,
+    "bottom": 6464300
+  },
+  "geometry_sha256": "96CDFC58D8DAF97BED12E4E89123053CFD3D82D74D0366583FA4ED1D48514C78",
+  "compatible_master_families": [
+    "public-blue-white"
+  ],
+  "mount": {
+    "preserve_absolute_geometry": true,
+    "preserve_z_order": true,
+    "allow_scale": false,
+    "copy_registered_shapes_only": true,
+    "import_source_master": false
+  },
+  "constraints": {
+    "schema_version": 1,
+    "image_only": false,
+    "text_slots": [
+      {
+        "shape": "P18_导语",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 18,
+        "max_chars": 28,
+        "line_count": 1,
+        "line_min_chars": [
+          18
+        ],
+        "line_max_chars": [
+          28
+        ],
+        "style_roles": {
+          "base": 1,
+          "accent": 2
+        },
+        "required_style_roles": [
+          "base",
+          "accent"
+        ]
+      },
+      {
+        "shape": "P18_图注",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 24,
+        "max_chars": 60,
+        "line_count": 1,
+        "line_min_chars": [
+          24
+        ],
+        "line_max_chars": [
+          60
+        ]
+      },
+      {
+        "shape": "P18_证据卡1_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "P18_证据卡1_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22,
+        "line_count": 2,
+        "line_min_chars": [
+          8,
+          4
+        ],
+        "line_max_chars": [
+          12,
+          12
+        ]
+      },
+      {
+        "shape": "P18_证据卡2_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "P18_证据卡2_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 12,
+        "max_chars": 22,
+        "line_count": 2,
+        "line_min_chars": [
+          8,
+          4
+        ],
+        "line_max_chars": [
+          12,
+          12
+        ]
+      },
+      {
+        "shape": "P18_证据卡3_标题",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 2,
+        "max_chars": 6,
+        "line_count": 1,
+        "line_min_chars": [
+          2
+        ],
+        "line_max_chars": [
+          6
+        ]
+      },
+      {
+        "shape": "P18_证据卡3_正文",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 14,
+        "max_chars": 23,
+        "line_count": 2,
+        "line_min_chars": [
+          8,
+          6
+        ],
+        "line_max_chars": [
+          12,
+          12
+        ]
+      },
+      {
+        "shape": "P18_结论",
+        "occurrence": 1,
+        "required": true,
+        "min_chars": 22,
+        "max_chars": 44,
+        "line_count": 1,
+        "line_min_chars": [
+          22
+        ],
+        "line_max_chars": [
+          44
+        ]
+      }
+    ],
+    "picture_slots": [
+      {
+        "shape": "P18_基础力学实验数智教学资源体系",
+        "occurrence": 1,
+        "required": true,
+        "caption_shape": "P18_图注",
+        "source_required": true,
+        "fit": "contain",
+        "public_example": "公开版仅保留中性图片占位；正式使用时必须替换为真实、可追溯图片。"
+      }
+    ]
+  },
+  "validation": {
+    "user_approved": true,
+    "within_safe_region": true,
+    "source_master_differs_from_target": false,
+    "visual_reviewed": true,
+    "test_mount": "passed",
+    "verify_module": "passed",
+    "verify_layered": "passed",
+    "verify_master": "passed",
+    "mounted_visual_reviewed": true,
+    "public_sanitized": true
+  }
+}

@@ -8,6 +8,8 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 import zipfile
 
+from pptx import Presentation
+
 from template_ppt import (
     NS,
     find_repo_root,
@@ -33,6 +35,50 @@ def source_identity(record: dict) -> str:
     return ""
 
 
+def slide_parts_in_presentation_order(deck: Path) -> list[str]:
+    """Resolve logical slide positions to package parts.
+
+    PowerPoint preserves part names when slides are deleted or reordered, so
+    ``slide 18`` is not always ``ppt/slides/slide18.xml``. Source manifests use
+    presentation order, which is also what users mean by a page number.
+    """
+
+    presentation = Presentation(str(deck))
+    return [str(slide.part.partname).lstrip("/") for slide in presentation.slides]
+
+
+def relationship_part_name(slide_part: str) -> str:
+    parent, filename = posixpath.split(slide_part)
+    return posixpath.join(parent, "_rels", f"{filename}.rels")
+
+
+def image_properties_and_blip(container: ET.Element) -> tuple[ET.Element, ET.Element]:
+    """Return metadata and embedded media for native pictures or filled shapes.
+
+    PowerPoint can implement an existing photo frame as either ``p:pic`` or a
+    normal editable ``p:sp`` whose fill is an ``a:blipFill``. Both are valid
+    image slots. Treating the latter as non-images caused source verification
+    to reject a legitimate in-place ``Shape.Fill.UserPicture`` replacement.
+    """
+
+    if container.tag == f"{{{NS['p']}}}pic":
+        properties = container.find("./p:nvPicPr/p:cNvPr", NS)
+        blip = container.find("./p:blipFill/a:blip", NS)
+    elif container.tag == f"{{{NS['p']}}}sp":
+        properties = container.find("./p:nvSpPr/p:cNvPr", NS)
+        blips = container.findall("./p:spPr/a:blipFill/a:blip", NS)
+        if len(blips) != 1:
+            raise ValueError(
+                "target is a filled shape but does not contain exactly one embedded picture fill"
+            )
+        blip = blips[0]
+    else:
+        raise ValueError("target is neither a native picture nor a picture-filled shape")
+    if properties is None or blip is None:
+        raise ValueError("picture properties or embedded blip missing")
+    return properties, blip
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Verify embedded picture bytes, fallback cleanup, caption and source metadata"
@@ -55,6 +101,7 @@ def main() -> None:
     source_identity_seen: dict[str, str] = {}
     embedded_sha_reuse: dict[str, list[str]] = {}
     source_identity_reuse: dict[str, list[str]] = {}
+    slide_parts = slide_parts_in_presentation_order(deck)
     with zipfile.ZipFile(deck, "r") as archive:
         names = set(archive.namelist())
         slide_cache: dict[int, ET.Element] = {}
@@ -65,6 +112,10 @@ def main() -> None:
             occurrence = int(record.get("occurrence", 1))
             context = f"slide {slide_number} {shape_name!r} occurrence {occurrence}"
             try:
+                if slide_number < 1 or slide_number > len(slide_parts):
+                    raise ValueError(
+                        f"slide number is outside 1..{len(slide_parts)}"
+                    )
                 if str(record.get("shared_visual_slot", "") or "").strip():
                     raise ValueError("shared_visual_slot is forbidden for content images")
                 identity = source_identity(record)
@@ -84,8 +135,8 @@ def main() -> None:
                 else:
                     source_identity_seen[identity] = context
                 if slide_number not in slide_cache:
-                    xml_name = slide_xml_name(slide_number)
-                    rels_name = slide_rels_name(slide_number)
+                    xml_name = slide_parts[slide_number - 1]
+                    rels_name = relationship_part_name(xml_name)
                     slide_cache[slide_number] = ET.fromstring(archive.read(xml_name))
                     rels = ET.fromstring(archive.read(rels_name))
                     rel_cache[slide_number] = {
@@ -95,12 +146,7 @@ def main() -> None:
                 picture = named_shape_container(
                     slide_cache[slide_number], shape_name, occurrence
                 )
-                if picture.tag != f"{{{NS['p']}}}pic":
-                    raise ValueError("target is not a picture")
-                properties = picture.find("./p:nvPicPr/p:cNvPr", NS)
-                blip = picture.find("./p:blipFill/a:blip", NS)
-                if properties is None or blip is None:
-                    raise ValueError("picture properties or embedded blip missing")
+                properties, blip = image_properties_and_blip(picture)
                 expected_title = str(record["caption"]).strip()
                 expected_descr = (
                     f"{expected_title}；来源：{str(record['credit']).strip()}；"

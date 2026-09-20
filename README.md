@@ -11,7 +11,7 @@
 ## 公开内容
 
 - 2 个脱敏母版家族：`通用蓝白` 与 `通用青绿`；
-- 57 个活动内容模块及容量/几何合同；
+- 58 个活动内容模块及容量/几何合同；
 - 模板研发的 `draft → revise → approved/rejected → 合同化 → 验证 → active` 全流程；
 - 只负责复制、挂载、替换、备注、图片来源、渲染和验证的机械工具；
 - Codex skills：`.codex/skills/template-first-ppt/` 与 `.codex/skills/slide-copy-polisher/`。
