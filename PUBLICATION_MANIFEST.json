@@ -1,11 +1,78 @@
 {
   "schema_version": 1,
-  "master_families": 2,
-  "active_modules": 58,
-  "sanitized_pptx": 42,
-  "contains_task_outputs": false,
-  "contains_original_media": false,
-  "contains_original_notes": false,
-  "contains_personal_metadata": false,
-  "generated_readme_image": "docs/images/pptskills-workflow.png"
+  "date": "2026-10-04",
+  "workflow": "ppt6",
+  "files": [
+    {
+      "path": ".codex/skills/ppt6/agents/openai.yaml",
+      "bytes": 269,
+      "sha256": "a331816ec54ff6daa7efba40e99d1de8b35a99dc2d77bb208ad4e4c9954e0018"
+    },
+    {
+      "path": ".codex/skills/ppt6/references/copy-and-asset-rules.md",
+      "bytes": 1875,
+      "sha256": "6fe54bb766266344ef43e7368e5734fb3e6bc750f4e54785681e2955e07f3bd8"
+    },
+    {
+      "path": ".codex/skills/ppt6/references/cpa-imagegen.md",
+      "bytes": 1048,
+      "sha256": "39c46629d49fc64b3145322c4731bcc41b9a2e02786d070e2e9af3e4d00d8114"
+    },
+    {
+      "path": ".codex/skills/ppt6/references/project-rules.md",
+      "bytes": 6976,
+      "sha256": "e96227e9a70b3dc7926db51b5280a6ed1918284a0c17073cc5aeca1a77a71c20"
+    },
+    {
+      "path": ".codex/skills/ppt6/references/review-state.md",
+      "bytes": 1573,
+      "sha256": "5be4579960c08016ef776c0f07551a3c108a70a25e3467590e53f1be8c9d019f"
+    },
+    {
+      "path": ".codex/skills/ppt6/references/workflow.md",
+      "bytes": 3124,
+      "sha256": "cd2df7c0a1ca3d23fa4933bd4b819b1aedd8b57e2f3964f70a6e865885db660f"
+    },
+    {
+      "path": ".codex/skills/ppt6/scripts/check_model_gate.py",
+      "bytes": 881,
+      "sha256": "5430c14e03e97f34ba0fa17a33587f5a6d304915b03dbbb948c16995addf6aa2"
+    },
+    {
+      "path": ".codex/skills/ppt6/scripts/cpa_imagegen.py",
+      "bytes": 4251,
+      "sha256": "853c3b5cf6514e6b71745c5868dabbbbbd4580bd9bd13660fbd7cbbf1cf6e4ee"
+    },
+    {
+      "path": ".codex/skills/ppt6/scripts/validate_review_state.py",
+      "bytes": 2685,
+      "sha256": "d7a63e5f579738cbe39cf8498b6b99a1c3945993b4956cac9e68e9518ae45992"
+    },
+    {
+      "path": ".codex/skills/ppt6/SKILL.md",
+      "bytes": 7981,
+      "sha256": "2b48c530f7decbc7fc0c773c09bafacd33708614c7e2972d5834f2e2eb55c22a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 138,
+      "sha256": "e04ea5c7de97bf170ae04802651ef73aa4f964f53d19093d614b849f8123cb42"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 6976,
+      "sha256": "e96227e9a70b3dc7926db51b5280a6ed1918284a0c17073cc5aeca1a77a71c20"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 791,
+      "sha256": "d19c8162cdad22f12de8ce1bc2f96d189faa5169eedf3b34e645a0c61f3f1565"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3405,
+      "sha256": "0ccc9302e41d9bafad75ba5058b68f00921b51969411d194f0a12419c4374dea"
+    }
+  ],
+  "note": "Manifest excludes itself and PUBLICATION_AUDIT.json."
 }

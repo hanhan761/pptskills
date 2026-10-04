@@ -81,6 +81,7 @@ def _get_provider_token(auth: dict[str, Any]) -> str:
             capture_output=True,
             text=True,
             timeout=timeout_seconds,
+            creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0,
         )
     except (OSError, subprocess.TimeoutExpired) as exc:
         _die(f"provider auth command failed: {type(exc).__name__}")
@@ -97,7 +98,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Run the installed imagegen CLI through a Codex-configured CPA provider."
     )
-    parser.add_argument("--provider", default="cpa_matterswarm")
+    parser.add_argument("--provider", required=True, help="Explicitly authorized provider name from your local config")
     parser.add_argument("--config", type=Path, default=_default_config())
     parser.add_argument("--imagegen-script", type=Path, default=_default_imagegen_script())
     args, forwarded = parser.parse_known_args(argv)
@@ -115,7 +116,7 @@ def main(argv: list[str] | None = None) -> int:
     child_env["OPENAI_API_KEY"] = token
     child_env["OPENAI_BASE_URL"] = base_url
     child = [sys.executable, str(args.imagegen_script), *forwarded]
-    return subprocess.call(child, env=child_env)
+    return subprocess.call(child, env=child_env, creationflags=subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0)
 
 
 if __name__ == "__main__":

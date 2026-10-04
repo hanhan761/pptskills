@@ -1,24 +1,15 @@
-# CPA imagegen fallback
+# 已授权的可选 imagegen 替代路径
 
-Use this only when the built-in `image_gen` tool is not registered and the user has chosen the configured CPA provider path.
+仅当内置 imagegen 不可用，且用户明确选择已有的 OpenAI-compatible 图片服务时使用。失败时说明原因；不得自行切换服务或用代码绘图替代。
 
-`scripts/cpa_imagegen.py` reads the provider's existing `auth.command` from the local Codex config, obtains a short-lived token, and invokes the installed official `imagegen` CLI with:
+脚本从本机 Codex 配置读取用户指定 provider 的 base_url 和 auth.command。令牌仅在内存及子进程环境中使用，不打印、不写入仓库或日志。仓库不提供账号、服务地址或模型目录。
 
-- `OPENAI_BASE_URL` set to the provider's `base_url`;
-- `OPENAI_API_KEY` set only in the child process;
-- no token written to the repository, logs, or generated asset metadata.
+先查询所选服务的认证模型目录，使用其实际支持的图片模型 ID。不要假定示例名称或产品名称就是 API ID。安装的 imagegen CLI 必须存在；缺失时停止并说明依赖。
 
-Example:
+示例（替换占位参数）：
 
 ```powershell
-python .codex/skills/ppt6/scripts/cpa_imagegen.py -- generate `
-  --model gpt-image-2 `
-  --prompt "A clean editorial visual explaining a template-first PowerPoint repository" `
-  --size 1536x1024 `
-  --quality high `
-  --out output/imagegen/repository-overview.png
+python .codex/skills/ppt6/scripts/cpa_imagegen.py --provider <configured-provider> -- generate --model <verified-image-model> --prompt <accurate-page-prompt> --out agent-workspace/demo/generated/page.png
 ```
 
-Use the exact image model ID returned by the provider's authenticated `/v1/models` endpoint. Do not assume that a product label such as “image2.5” is the API model ID. The current local CPA catalog advertises `gpt-image-2`.
-
-This fallback does not register a native `image_gen` tool inside the Codex turn. It only provides a safe provider-compatible execution path. It also does not bypass PPT6's GPT-6 model gate or its human image-review gate.
+这一替代路径仍遵守 GPT-6 模型检查、完整页面图片审核、人工批准和原生可编辑重建。

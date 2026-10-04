@@ -1,27 +1,27 @@
 # PPT6 工作流细则
 
-## 推荐运行目录
-
-每次任务使用独立目录，例如：
+## 运行目录
 
 ```text
-<run>/
+agent-workspace/<task>/
 ├── brief.json
-├── template-audit.json       # 有模板时必须有
+├── template-audit.json
 ├── copy-manifest.json
 ├── asset-sources.json
-├── draft/
+├── prompts/
+└── build/
+    ├── working.pptx
+    └── rendered/
+task/<task>/
+├── 参考资料/
+├── 审核/
 │   ├── slide-001.png
-│   └── contact-sheet.png
-├── review_state.json
-├── build/
-│   ├── working.pptx
-│   └── rendered/
-└── final/
-    └── <deck-name>.pptx
+│   ├── contact-sheet.png
+│   └── review_state.json
+└── <deck-name>.pptx
 ```
 
-不要把中间文件散落在仓库根目录。`final/` 只放最终交付文件。
+根目录只保留项目入口。审核与正式交付之外的过程文件都在智能体工作区。具体规则见 [project-rules.md](project-rules.md)。
 
 ## 模板吸收记录
 
@@ -38,7 +38,7 @@
 
 ## 图片稿阶段
 
-先锁定叙事和页面角色，再生成视觉稿。图片稿可以使用 imagegen 生成的主视觉、原创 logo 探索和布局概念，但必须叠加准确文案，不能让人审核一张文字错乱的伪成品。
+先锁定叙事和页面角色，再生成视觉稿。图片稿必须由内置 imagegen 生成或修改完整页面，包括单页、简单线框图、系统架构和原理讲解页。使用准确文案与已核实素材；代码只能在生成页面上纠正错误文字/公式或嵌入真实证据，不得重建整页。
 
 真实图片的处理顺序：
 

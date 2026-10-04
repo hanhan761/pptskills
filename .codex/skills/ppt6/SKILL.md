@@ -13,6 +13,16 @@ PPT6 is a gated PowerPoint workflow for one slide, a small set of slides, or a c
 
 Do not skip the review gate, silently replace a rejected draft, or deliver the draft image as the final PowerPoint.
 
+## Current project workflow
+
+Read [references/project-rules.md](references/project-rules.md) before work. It carries the current workspace, imagegen review, scientific image, connector, icon, and PowerPoint QA requirements. This is the active production workflow; no legacy template/module library is required.
+
+- Keep process code, assets extracted during work, logs, renders and QA under `agent-workspace/<task>/`. Store review images and approval records in `task/<task>/审核/`; keep deliverables under `task/<task>/`.
+- Generate or edit the complete review page using built-in imagegen, including simple diagrams and architecture pages. A code-composed full page or a generated decoration with a code-composed page does not satisfy review. Code may correct inaccurate text/formulas or embed verified evidence on an imagegen page; do not reconstruct the review page with code.
+- Verify original scientific figures and scale bars; never generate evidence or redraw research data as if it came from a paper.
+- In formal PPT, use native connected straight/elbow connectors for arrows. Generate original decorative icons with imagegen as separate replaceable image objects; semantic structures, equations and tables remain native objects.
+- Inspect the finished deck in actual PowerPoint and verify editability.
+
 ## Model gate
 
 PPT6 is GPT-6-only. Before doing any image generation, template analysis, external image search, or PPT production:
@@ -79,6 +89,6 @@ Stop and report instead of improvising when:
 - the image draft has not received explicit human approval;
 - the approved visual cannot be reconstructed as editable objects without flattening or silently changing its intent.
 
-Keep intermediate drafts, prompts, manifests, approvals, renders, and QA evidence inside the task-local run directory. Deliver only the final `.pptx` unless the user asks for the review package too.
+Keep process prompts, manifests, renders, and QA evidence in `agent-workspace/<task>/`. Keep review images and approval records in `task/<task>/审核/`. Deliver only the final `.pptx` unless the user asks for the review package too.
 
 For the state schema and approval examples, read [references/review-state.md](references/review-state.md).

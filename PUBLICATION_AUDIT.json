@@ -1,17 +1,42 @@
 {
-  "schema_version": 2,
-  "passed": true,
-  "files_scanned": 145,
-  "pptx_scanned": 42,
-  "master_families_checked": 2,
-  "module_contracts_checked": 58,
-  "contract_validation": "passed",
-  "composition_smoke_test": "passed",
-  "single_master_smoke_test": "passed",
-  "readme_image_validation": "passed",
-  "visible_text_nodes_neutralized": 5795,
-  "unexpected_media": 0,
-  "embedded_payloads": 0,
+  "schema_version": 1,
+  "date": "2026-10-04",
+  "scope": "Current main release only; archive/history excluded",
+  "files_scanned": 14,
+  "personal_path_findings": 0,
   "sensitive_findings": 0,
-  "issues": []
+  "issues": [],
+  "validation": [
+    {
+      "test": "skill-frontmatter",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "gpt6-accepted",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "non-gpt6-rejected",
+      "passed": true,
+      "exit_code": 2
+    },
+    {
+      "test": "approved-build-accepted",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "unapproved-build-rejected",
+      "passed": true,
+      "exit_code": 2
+    },
+    {
+      "test": "optional-cli-help",
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "passed": true
 }

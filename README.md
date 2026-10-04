@@ -1,58 +1,56 @@
-# pptskills
+# pptskills · 当前工作流
 
-![pptskills：母版家族、内容模块与验证交付流程](docs/images/pptskills-repository-overview-cpa.png)
+本仓库当前使用 **PPT6：imagegen 图片审核 → 人工批准 → 原生可编辑 PowerPoint → 实际渲染验收**。
 
-一套“**统一母版、模板优先**”的 PowerPoint 工作流。它不让模型从零发明整页版式，而是把稳定质量拆成两层：
+## 从这里开始
 
-> **一个真实母版家族 + 一个已审核内容模块 + 文案/图片替换 = 一张可验证的 PPT 页面**
+- 执行入口：[PPT6 SKILL.md](.codex/skills/ppt6/SKILL.md)
+- 项目约束：[AGENTS.md](AGENTS.md)
+- 审核状态：[review-state.md](.codex/skills/ppt6/references/review-state.md)
+- 文案和真实素材：[copy-and-asset-rules.md](.codex/skills/ppt6/references/copy-and-asset-rules.md)
 
-上图从左到右展示了核心流程：先锁定母版家族，再选择标题以下的内容模块，只替换文案与图片，最后通过母版、几何、容量、素材和渲染检查交付。图为本项目原创生成视觉，不含真实任务数据或第三方标识。
+## 工作流程
 
-## 公开内容
+1. 核对任务范围、原始资料与当前 GPT-6 模型；已有模板先渲染分析。
+2. 用内置 imagegen 生成完整页面审核稿，放入任务的“审核”文件夹。保留准确文案、提示词、素材来源和生成记录。
+3. 展示审核稿，等待用户明确批准对应页面；修改的页面回到图片审核，其他页面的批准继续有效。
+4. 批准后按版式重建可编辑 PPT。文字、公式、表格和连接符使用原生对象；科研证据图使用真实论文原图，图注与来源可核验。
+5. 在实际 PowerPoint 中渲染检查，并验证文本、连接符和图片对象确实可编辑或可独立替换。
 
-- 2 个脱敏母版家族：`通用蓝白` 与 `通用青绿`；
-- 58 个活动内容模块及容量/几何合同；
-- 模板研发的 `draft → revise → approved/rejected → 合同化 → 验证 → active` 全流程；
-- 只负责复制、挂载、替换、备注、图片来源、渲染和验证的机械工具；
-- Codex skills：`.codex/skills/template-first-ppt/` 与 `.codex/skills/slide-copy-polisher/`。
+## 必须遵守
 
-## 为什么是模板优先
+- 图片审核使用 imagegen 完成整页；禁止程序排版整页冒充生成审核稿。
+- 科研图、设备照片和第三方 logo 保留真实来源；不得把生成内容作为研究证据。
+- 流程箭头使用原生直线/肘形连接符，并连接到节点；原创装饰图标使用 imagegen，独立嵌入。
+- 整页审核图不能充当正式 PPT 背景来伪装可编辑性。
+- 审核记录按页面保存，未批准页面不进入正式可编辑制作。
+- 过程文件集中在 agent-workspace/，审核与交付集中在 task/。
 
-- **母版统一**：封面、目录、章节、正文标题区与结尾保持一个视觉身份。
-- **模块复用**：正文只复用已审核的标题以下结构，不在任务稿里临时排版。
-- **容量有合同**：标题行数、字号语法、文本上下限、图片框和几何都可机械检查。
-- **素材可追溯**：正式任务必须替换为真实、独立、可核验的图片与准确图注。
-- **交付可验证**：结构验证之后仍要全页渲染和目视复核。
+## 安装与使用
 
-## 隐私边界
+将本仓库的 .codex/skills/ppt6/ 放入项目的 .codex/skills/，把 AGENTS.md 中的工作流约束用于该项目。调用 `$ppt6` 开始任务；技能保留显式调用设置。
 
-公开模板中的原始文案、研究数据、人物照片、机构标识、备注、批注、作者信息、绝对路径和外部链接均已移除或替换为中性占位内容。仓库不包含任务成品、研究原稿、素材源文件或内部审核记录。
+模型与审核检查只依赖 Python 标准库。可选替代图片服务需要 Python 3.11+ 及本机已安装的 imagegen CLI，且必须获得用户明确选择；本仓库不包含服务凭据或账号配置。
 
-使用模板时，请把图片占位替换为真实、可追溯且有授权的素材，并重新填写准确图注和来源。
+```powershell
+python .codex/skills/ppt6/scripts/check_model_gate.py --model-id <actual-runtime-model-id>
+python .codex/skills/ppt6/scripts/validate_review_state.py --state task/demo/审核/review_state.json --phase build
+```
 
-## 目录
+## 工作区
 
 ```text
-模板/母版/              # 脱敏母版家族与 family.json
-模板/模块/内容/         # 活动模块合同
-模板/模块/源页/         # 脱敏模块源页
-模板研发部门/已审核/    # 脱敏研发模块源页
-script/                 # 机械组合、替换、审计和验证工具
-.codex/skills/          # 可直接使用的 template-first-ppt skill
+.codex/skills/ppt6/        # 当前技能、参考规则和验证脚本
+agent-workspace/<task>/    # 代码、过程素材、提示词、日志、渲染与 QA（不上传）
+task/<task>/审核/          # 审核图片、生成记录与批准状态（不上传）
+task/<task>/               # 参考资料和正式交付物（不上传）
+assets/                   # 本地稳定源素材（不上传）
 ```
 
-## 快速验证
+## 旧流程
 
-```powershell
-pip install -r requirements.txt
-python script/template_ppt.py verify-master --input "模板/母版/通用蓝白/母版源.pptx" --family "模板/母版/通用蓝白/family.json"
-python script/template_ppt.py verify-master --input "模板/母版/通用青绿/母版源.pptx" --family "模板/母版/通用青绿/family.json"
-```
+旧的 template-first-ppt、母版库、模块合同和相关工具已退出当前 main 的执行入口。原始版本保存在 [archive/template-first-20261004](https://github.com/hanhan761/pptskills/tree/archive/template-first-20261004) 分支及 Git 历史中；开始新任务请使用本页的 PPT6。
 
-验证某个模块：
+## 公开范围
 
-```powershell
-python script/template_ppt.py verify-module --module "模板/模块/内容/<模块>.module.json" --family "模板/母版/通用蓝白/family.json"
-```
-
-完整哲学、边界与流程见 `AGENTS.md`；可执行 skill 见 `.codex/skills/template-first-ppt/SKILL.md`。
+此仓库只发布脱敏后的通用技能、规则和验证脚本。个人绝对路径、内部服务标识、账号凭据、任务资料、真实项目图片、审核记录和正式 PPT 均未纳入本次发布。详见 [PRIVACY.md](PRIVACY.md)。
