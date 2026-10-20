@@ -1,5 +1,7 @@
 # pptskills · 当前工作流
 
+![pptskills 工作流程：imagegen 图片审核 → 人工批准 → 原生可编辑 PPT → 实际渲染验收](.github/images/pptskills-workflow.png)
+
 本仓库当前使用 **PPT6：imagegen 图片审核 → 人工批准 → 原生可编辑 PowerPoint → 实际渲染验收**。
 
 ## 从这里开始
